@@ -1,0 +1,16 @@
+@media (max-width: 800px) {
+    
+    .span-icons {
+        margin-top: 20px;
+    }
+
+    .section--category {
+        margin: 0px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    .header--fixed {
+        display: none;
+    }
+}
