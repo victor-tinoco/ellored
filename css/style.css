@@ -11,8 +11,8 @@
     --color-bg-bluish-green: rgba(0, 126, 135, 0.8);;
 
     
-    --color-text-dark: #1D1D1F;
-    --color-text-medium-light: #86868B;
+    --color-text-dark: #1D1F1E;
+    --color-text-medium-light: #727272;
     --color-text-light: #F5F5F7;
 
     /* height all */
@@ -50,32 +50,59 @@
     color: var(--color-primary);
 }
 
+
 .color__section--dark {
     color: var(--color-section-dark);
 }
 
 .color__section--light {
-    color: var(--color-section-light);
+    background-color: var(--color-section-light);
 }
 
 /* BACKGROUND */
 
 .color__background--dark-grey {
-    color: var(--color-bg-dark-grey);
+    background-color: var(--color-bg-dark-grey);
 }
 
 .color__background--white {
-    color: var(--color-bg-white);
+    background-color: var(--color-bg-white);
 }
 
 .color__background--bluish-green {
-    color: var(--color-bg-bluish-green);
+    background-color: var(--color-bg-bluish-green);
+}
+
+/* COLOR TEXT */
+
+.color__text--medium-light {
+    color: var(--color-text-medium-light);
+}
+
+.color__text--dark {
+    color: var(--color-text-dark);
+}
+
+.color__text--light {
+    color: var(--color-text-light);
 }
 
 /* PADDING */
 
 .section--padding {
     padding: var(--section-padding);
+}
+
+.section--padding-header {
+    padding: 60px 0px 8px;
+}
+
+.section--padding-info {
+    padding: 50px 130px;
+}
+
+.section--pading-div {
+    padding: 50px 60px;
 }
 
 /* PAGE VAR */
@@ -172,13 +199,24 @@
     font-weight: bold;
 }
 
+/* MAX WIDTH */
+
+.max--width {
+    max-width: 450px;
+}
+
+.image--width {
+    width: 210px;
+}
+
+
 /* END  OF VAR PAGE */  
 
 /* CLASS REUSED */
 
 .section--highlighted {
     margin-top: var(--header-height);
-    background: var(--section-bg-light);
+    background: var(--color-section-light);
     padding: var(--section-padding);
 }
 
@@ -190,7 +228,7 @@
 
 .section--highlighted h1 {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-size: var(--text-ultra-large);
     font-weight: bold;
     color: var(--color-text-dark);
@@ -201,7 +239,7 @@
     line-height: 35px;
     max-width: 440px;
     font-size: var(--text-ultra-small);
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     color: var(--color-text-dark);
 } 
 
@@ -234,7 +272,7 @@
     margin-bottom: 25px;
     font-size: var(--text-large);
     font-weight: bold;
-    color: var(--color-text-dark);
+    color: var(--color-primary);
 }
 
 .section--category h2 {
@@ -431,7 +469,9 @@
     color: #5a5a5c;
 }
 
-.copyright {
-    margin-top: 48px;
-    color: var(--color-text-medium-light);
+/* PAGE 2 */
+
+.single-link {
+    text-decoration: none;
+    color: var(--color-text-dark);
 }

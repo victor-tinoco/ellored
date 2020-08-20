@@ -13,4 +13,22 @@
     .header--fixed {
         display: none;
     }
+
+    .mobile {
+        display: none;
+    }
+
+    .section--highlighted {
+        padding: 30px 5px;
+    }
+
+    .section--info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__category {
+        margin-bottom: 30px;
+    }
 }
