@@ -205,6 +205,18 @@
     max-width: 450px;
 }
 
+.width {
+    max-width: 510px;
+}
+
+.maximus {
+    max-width: 130px;
+}
+
+.text--width {
+    max-width: 540px;
+}
+
 .image--width {
     width: 210px;
 }
@@ -335,7 +347,6 @@
     border-radius: 30px;
     padding: 10px 16px;
     border: none;
-    margin-bottom: 15px;
 }
 
 .icons {
@@ -471,7 +482,11 @@
 
 /* PAGE 2 */
 
-.single-link {
+.single-link li > a {
     text-decoration: none;
     color: var(--color-text-dark);
+}
+
+.single-link li > a:hover {
+    color: #6d6e6d;
 }
