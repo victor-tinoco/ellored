@@ -209,6 +209,18 @@
     max-width: 510px;
 }
 
+.width-text {
+    max-width: 340px;
+}
+
+.width--input {
+    width: 540px;
+}
+
+.section-width {
+    max-width: 850px;
+}
+
 .maximus {
     max-width: 130px;
 }
@@ -219,6 +231,12 @@
 
 .image--width {
     width: 210px;
+}
+
+/* MARGIN */
+
+.margin--text {
+    margin-left: 167px;
 }
 
 
@@ -338,6 +356,9 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+}
+
+.input-class {
 }
 
 .button-group {
