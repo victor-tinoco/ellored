@@ -1,5 +1,5 @@
 :root {
-    /* colors all */   
+    /* Colors */   
     --color-primary: #24BBC7;
     --colors-primary-hovered: #23A4AD;
 
@@ -10,38 +10,42 @@
     --color-bg-white: #FFFFFF;
     --color-bg-bluish-green: rgba(0, 126, 135, 0.8);;
 
-    
     --color-text-dark: #1D1F1E;
     --color-text-medium-light: #727272;
     --color-text-light: #F5F5F7;
 
-    /* height all */
-
+    /* Sizes */
     --header-height: 48px;
     --section-padding: 72px 0;
     --text-line-height: 150%;
     
-    /* Text all */
-
+    /* Text sizes */
     --text-ultra-large: 56px;
-    
     --text-large: 48px;
-
     --text-medium: 40px;
-
     --text-small: 32px;
-
-    --text-body-paragraph: 16px;
-
-    --text-body-small: 14px;
-
     --text-ultra-small: 24px;
-
+    --text-body-paragraph: 16px;
+    --text-body-small: 14px;
     --text-body-description: 18px;
-
     --text-body-highligthed-ultra-small: 12px;
-
     --text-body-ultra-small: 12px;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../fonts/SF-Pro-Display-Light.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../fonts/SF-Pro-Display-Bold.otf);
+    font-weight: bold;
+} 
+
+html, body {
+    font-family: 'SF Pro Display', Arial, Helvetica, sans-serif;
 }
 
 /* COLORS CLASS */
@@ -358,9 +362,6 @@
     margin-bottom: 30px;
 }
 
-.input-class {
-}
-
 .button-group {
     font-size: var(--text-body-paragraph);
     color: var(--color-text-light);
@@ -448,7 +449,6 @@
 .section--info h3 {
     text-align: center;
     font-size: var(--text-body-description);
-    max-width: 330px;
     color: var(--color-text-medium-light);
 }
 
