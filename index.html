@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="header--fixed">
         <div class="container">
-            <div class="d-flex justify-content-between row">
+            <div class="d-flex justify-content-between">
                 <img class="header__logo" src="img/logo-ello.png" alt="Logo da Ello">
-                <ul>
+                <ul class="header__nav d-flex align-items-center">
                     <li><a href="#">Redutor</a></li>
                     <li><a href="#">Motor e motofreio</a></li>
                     <li><a href="#">Planetários de Precisão</a></li>
@@ -27,28 +27,45 @@
                     <li><a href="#">Acoplamento</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
+                <div class="hamburger"><span class="material-icons">menu</span></div>
             </div>
         </div>
     </header>
 
+    <div class="menu">
+        <div class="menu_door door_left"></div>
+        <div class="menu_door door_right"></div>
+        <div class="menu_content d-flex flex-column align-items-center justify-content-center">
+          <div class="menu_close">Fechar</div>
+          <div class="menu_nav_container">
+            <nav class="menu_nav text-center">
+              <ul>
+                <li><a href="#header-navigation">Home</a></li>
+                <li><a href="#description-doubts">Sobre nós</a></li>
+                <li><a href="#budget">Orçamento</a></li>
+                <li><a href="#end-section">Contato</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
     <section class="section--highlighted section--highlighted--dark">
         <div class="container">
             <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <div class="section--highlighted__header mr-5 col-lg-6 col-sm-12">
-                        <h1>Redutores</h1>
-                        <h2>Velocidade. Redução. Torque.</h2>
-                        <p class="text__subtitle--description color__text--light mb-2">Excelência em qualidade e tecnologia.</p>
-                        <ul class="list--link">
-                            <li><a class="link--primary icons" href="#">Ler mais
-                                    <span class="material-icons">keyboard_arrow_right</span></a></li>
-                            <li><a class="link--primary icons" href="#">Cotar
-                                    <span class="material-icons">keyboard_arrow_right</span></a></li>
-                        </ul>
-                    </div>
-                    <div class="image-group col-lg-6 col-sm-12">
-                        <img src="img/IBR.png" alt="SSW">
-                    </div>
+                <div class="section--highlighted__header col-lg-6 col-sm-12">
+                    <h1>Redutores</h1>
+                    <h2>Velocidade. Redução. Torque.</h2>
+                    <p class="text__subtitle--description color__text--light mb-2">Excelência em qualidade e tecnologia.</p>
+                    <ul class="list--link">
+                        <li><a class="link--primary icons" href="#">Ler mais
+                                <span class="material-icons">keyboard_arrow_right</span></a></li>
+                        <li><a class="link--primary icons" href="#">Cotar
+                                <span class="material-icons">keyboard_arrow_right</span></a></li>
+                    </ul>
+                </div>
+                <div class="image-group col-lg-6 col-sm-12">
+                    <img src="img/IBR.png" alt="SSW">
                 </div>
             </div>
         </div>
@@ -265,6 +282,9 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.min.js"></script>
+
+    <script type="text/javascript" src="plugins/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
 </body>
 
 </html>
