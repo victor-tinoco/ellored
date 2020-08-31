@@ -13,7 +13,7 @@
 <body>
     <header class="header--fixed">
         <div class="container">
-            <div class="d-flex justify-content-between row">
+            <div class="d-flex justify-content-between">
                 <img class="header__logo" src="img/logo-ello.png" alt="Logo da Ello">
                 <ul>
                     <li><a href="#">Redutor</a></li>
@@ -29,44 +29,44 @@
     </header>
 
     <section class="section--padding-header">
-        <div class="container section--padding-info section-width">
+        <div class="container section-width">
             <div class="row mb-5">
-                <div>
+                <div class="col-lg-12 col-sm-12">
                     <h1 class="color__text--dark text__title--small">Contate a Ello para dúvidas e serviços</h1>
                 </div>
             </div>
             <div class="row d-flex justify-content-start mb-3">
-                <div>
+                <div class="col-lg-6 col-sm-12">
                     <h3 class="color--primary text__body--description-highlighted">Telefone</h3>
-                    <p class="color__text--dark text__body--description-highlighted">(11) 2597-2621</p>
+                    <p class="color__text--darktext__subtitle--description">(11) 2597-2621</p>
                 </div>
-                <div>
+                <div class="col-lg-6 col-sm-12">
                     <h3 class="color--primary text__body--description-highlighted margin--text">Celular</h3>
-                    <p class="color__text--dark text__body--description-highlighted margin--text">(11) 95030-4918</p>
+                    <p class="color__text--dark text__subtitle--description margin--text">(11) 95030-4918</p>
                 </div>
             </div>
             <div class="row d-flex justify-content-between mb-5">
-                <div>
+                <div class="col-lg-6 col-sm-12">
                     <h3 class="color--primary text__body--description-highlighted">E-mail</h3>
-                    <p class="color__text--dark text__body--description-highlighted">contato@elloredutores.com.br</p>
+                    <p class="color__text--dark text__subtitle--description">contato@elloredutores.com.br</p>
                 </div>
-                <div>
+                <div class="col-lg-6 col-sm-12">
                     <h3 class="color--primary text__body--description-highlighted">Endereço</h3>
-                     <p class="color__text--dark text__body--description-highlighted width-text">R. Dr. Augusto Simões Lopes, 338 - Eng. Goulart, São Paulo - SP, 03725-080</p>
+                     <p class="color__text--dark text__subtitle--description width--ultra-small">R. Dr. Augusto Simões Lopes, 338 - Eng. Goulart, São Paulo - SP, 03725-080</p>
                 </div>
             </div>
             <div class="row">
-                <form action="submit">
+                <form class="col-lg-12 col-sm-12" action="submit">
                     <label class="mb-1 color__text--medium-light text__body--small" for="fname">Empresa</label><br>
-                    <input class="width--input mb-3 input-class" placeholder="Empresa" type="text" name="fname"><br>
+                    <input class="group-input width--large  mb-3 input-class" placeholder="Empresa" type="text" name="fname"><br>
                     <label class="mb-1 color__text--medium-light text__body--small" for="lname">Nome</label><br>
-                    <input class="width--input mb-2 input-class" placeholder="Nome" type="text" name="lname"><br><br>
+                    <input class="group-input width--large  mb-2 input-class" placeholder="Nome" type="text" name="lname"><br><br>
                     <label class="mb-1 color__text--medium-light text__body--small" for="lname">E-mail</label><br>
-                    <input class="width--input mb-2 input-class" placeholder="E-mail" type="email" name="lname"><br><br>
+                    <input class="group-input width--large  mb-2 input-class" placeholder="E-mail" type="email" name="lname"><br><br>
                     <label class="mb-1 color__text--medium-light text__body--small" for="lname">Telefone</label><br>
-                    <input class="width--input mb-2 input-class" placeholder="Telefone" type="tel" name="lname"><br><br>
+                    <input class="group-input width--large  mb-2 input-class" placeholder="Telefone" type="tel" name="lname"><br><br>
                     <label class="mb-1 color__text--medium-light text__body--small" for="lname">Motivo de contato</label><br>
-                    <input class="width--input mb-2 input-class" placeholder="Motivo de contato" type="text" name="lname"><br><br>
+                    <input class="group-input width--large  mb-2 input-class" placeholder="Motivo de contato" type="text" name="lname"><br><br>
                     <label class="mb-1 color__text--medium-light text__body--small" for="lname">Mensagem</label><br>
                     <textarea name="lname" placeholder="Mensagem" cols="65" rows="5"></textarea>
                 </form>
@@ -80,8 +80,8 @@
     <footer class="footer mt-3">
         <div class="container">
             <div class="row d-flex justify-content-between">
-                <div class="footer__category">
-                    <h3><a href="#">Redutores</a></h3>
+                <div class="col-lg-2 col-sm-12 footer__category">
+                    <h3><a href="#">Redutor</a></h3>
                     <ul>
                         <li><a href="#">Lorem ipsum</a></li>
                         <li><a href="#">Lorem ipsum</a></li>
@@ -90,17 +90,7 @@
                         <li><a href="#">Lorem ipsum</a></li>
                     </ul>
                 </div>
-                <div class="footer__category">
-                    <h3><a href="#">Planetário de precisão</a></h3>
-                    <ul>
-                        <li><a href="#">Lorem ipsum</a></li>
-                        <li><a href="#">Lorem ipsum</a></li>
-                        <li><a href="#">Lorem ipsum</a></li>
-                        <li><a href="#">Lorem ipsum</a></li>
-                        <li><a href="#">Lorem ipsum</a></li>
-                    </ul>
-                </div>
-                <div class="footer__category">
+                <div class="col-lg-2 col-sm-12 footer__category">
                     <h3><a href="#">Motor e motofreio</a></h3>
                     <ul>
                         <li><a href="#">Lorem ipsum</a></li>
@@ -110,7 +100,17 @@
                         <li><a href="#">Lorem ipsum</a></li>
                     </ul>
                 </div>
-                <div class="footer__category">
+                <div class="col-lg-2 col-sm-12 footer__category">
+                    <h3><a href="#">Planetário de precisão</a></h3>
+                    <ul>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-12 footer__category">
                     <h3><a href="#">Automação</a></h3>
                     <ul>
                         <li><a href="#">Lorem ipsum</a></li>
@@ -120,7 +120,17 @@
                         <li><a href="#">Lorem ipsum</a></li>
                     </ul>
                 </div>
-                <div class="footer__category">
+                <div class="col-lg-2 col-sm-12 footer__category">
+                    <h3><a href="#">Variador</a></h3>
+                    <ul>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-12 footer__category">
                     <h3><a href="#">Acoplamento</a></h3>
                     <ul>
                         <li><a href="#">Lorem ipsum</a></li>
@@ -133,33 +143,16 @@
             </div>
             <div class="row mt-5 color__text--medium-light">
                 <div class="col">
-                    <p>Outras formas de cotar: <a class="link--primary" href="#">Página de Contato</a>,ligue <a class="link--primary" href="#">+55 11 95030-4918</a> ou envie um e-mail para <a class="link--primary" href="#">contato@elloredutores.com.br</a>.</p>
+                    <p class="text__body--ultra-small">Outras formas de cotar: <a class="link--primary" href="#">Página de Contato </a>, ligue <a class="link--primary" href="#">+55 11 95030-4918</a> ou envie um e-mail para <a class="link--primary" href="#">contato@elloredutores.com.br</a>.</p>
                     <hr class="w-100">
                     <div class="d-flex justify-content-between end">
-                        <p>Copyright © 2020 Ello Redutores. Todos os direitos reservados.</p>
-                        <p>Made by <a class="link--primary" href="https://victortinoco.com">Victor Tinoco</a></p>
+                        <p class="text__body--ultra-small">Copyright © 2020 Ello Redutores. Todos os direitos reservados.</p>
+                        <p class="text__body--ultra-small">Made by <a class="link--primary" href="https://victortinoco.com">Victor Tinoco</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
