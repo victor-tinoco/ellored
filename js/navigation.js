@@ -9,34 +9,51 @@ const PRODUCT_FOR_BUY_COOKIE_KEY = 'product_for_buy'
 
 $(function () {
   "use strict";
-  const currentPath = window.location.pathname
+  const listNavElement = $('.js--list--nav');
+  const currentPath = window.location.pathname;
 
-  guard()
-  clean()
+  guard();
+  setupCookies();
+  setupNavBarLinks();
+
+  if (Cookies.get(CATEGORY_COOKIE_KEY)) console.log(JSON.parse(Cookies.get(CATEGORY_COOKIE_KEY)));
+  if (Cookies.get(PRODUCT_COOKIE_KEY)) console.log(JSON.parse(Cookies.get(PRODUCT_COOKIE_KEY)));
+  if (Cookies.get(PRODUCT_FOR_BUY_COOKIE_KEY)) console.log(JSON.parse(Cookies.get(PRODUCT_FOR_BUY_COOKIE_KEY)));
 
   function guard() {
     if ((currentPath == PRODUCT_PATH_KEY) && (Cookies.get(PRODUCT_COOKIE_KEY) === undefined)) {
-      console.log('product not selected')
-      window.location.replace(INDEX_PATH_KEY)
+      console.log('product not selected');
+      window.location.replace(INDEX_PATH_KEY);
     }
     
     if ((currentPath == CATEGORY_PATH_KEY) && (Cookies.get(CATEGORY_COOKIE_KEY) === undefined)) {
-      console.log('category not selected')
-      window.location.replace(INDEX_PATH_KEY)
+      console.log('category not selected');
+      window.location.replace(INDEX_PATH_KEY);
     }
   }
 
-  function clean() {
-    if (currentPath == INDEX_PATH_KEY) {
-      Cookies.remove(CATEGORY_COOKIE_KEY)
-      Cookies.remove(PRODUCT_COOKIE_KEY)
-      Cookies.remove(PRODUCT_FOR_BUY_COOKIE_KEY)
+  function setupCookies() {
+    if (currentPath == INDEX_PATH_KEY) 
+      clearCookies();
+  }
+
+  function setupNavBarLinks() {
+    let list = '';
+    for (const e of Object.keys(database)) {
+      list += `<li><a href="category.html" onclick="selectCategory(database['${e}'])">${e}</a></li>`;
     }
+    list += `<li><a href="contact.html" onclick="clearCookies()">Contato</a></li>`;
+    listNavElement.html(list);
   }
 })
 
 function selectCategory(category) {
-  let json = JSON.stringify(category)
-  console.log(json)
-  Cookies.set(CATEGORY_COOKIE_KEY, json)
+  let json = JSON.stringify(category);
+  Cookies.set(CATEGORY_COOKIE_KEY, json);
+}
+
+function clearCookies() {
+  Cookies.remove(CATEGORY_COOKIE_KEY);
+  Cookies.remove(PRODUCT_COOKIE_KEY);
+  Cookies.remove(PRODUCT_FOR_BUY_COOKIE_KEY);
 }

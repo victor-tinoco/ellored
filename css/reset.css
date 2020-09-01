@@ -1,6 +1,10 @@
 
 * {
-  outline: 0;
+	outline: 0;
+}
+
+img {
+	align-self: center;
 }
 
 html,
