@@ -16,9 +16,9 @@ $(function () {
   setupCookies();
   setupNavBarLinks();
 
-  if (Cookies.get(CATEGORY_COOKIE_KEY)) console.log(JSON.parse(Cookies.get(CATEGORY_COOKIE_KEY)));
-  if (Cookies.get(PRODUCT_COOKIE_KEY)) console.log(JSON.parse(Cookies.get(PRODUCT_COOKIE_KEY)));
-  if (Cookies.get(PRODUCT_FOR_BUY_COOKIE_KEY)) console.log(JSON.parse(Cookies.get(PRODUCT_FOR_BUY_COOKIE_KEY)));
+  if (Cookies.get(CATEGORY_COOKIE_KEY)) console.log(`Category -> ${JSON.parse(Cookies.get(CATEGORY_COOKIE_KEY))}`);
+  if (Cookies.get(PRODUCT_COOKIE_KEY)) console.log(`Product -> ${JSON.parse(Cookies.get(PRODUCT_COOKIE_KEY))}`);
+  if (Cookies.get(PRODUCT_FOR_BUY_COOKIE_KEY)) console.log(`Product for buy -> ${JSON.parse(Cookies.get(PRODUCT_FOR_BUY_COOKIE_KEY))}`);
 
   function guard() {
     if ((currentPath == PRODUCT_PATH_KEY) && (Cookies.get(PRODUCT_COOKIE_KEY) === undefined)) {
@@ -39,17 +39,24 @@ $(function () {
 
   function setupNavBarLinks() {
     let list = '';
-    for (const e of Object.keys(database)) {
-      list += `<li><a href="category.html" onclick="selectCategory(database['${e}'])">${e}</a></li>`;
+    for (const idx in database) {
+      list += `<li><a href="category.html" onclick="selectCategory(${idx})">${database[idx].title}</a></li>`;
     }
     list += `<li><a href="contact.html" onclick="clearCookies()">Contato</a></li>`;
     listNavElement.html(list);
   }
 })
 
-function selectCategory(category) {
-  let json = JSON.stringify(category);
-  Cookies.set(CATEGORY_COOKIE_KEY, json);
+function selectCategory(index) {
+  Cookies.set(CATEGORY_COOKIE_KEY, index);
+}
+
+function selectProduct(index) {
+  Cookies.set(PRODUCT_COOKIE_KEY, index);
+}
+
+function selectProductForBuy(index) {
+  Cookies.set(PRODUCT_FOR_BUY_COOKIE_KEY, index);
 }
 
 function clearCookies() {
