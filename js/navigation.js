@@ -22,13 +22,13 @@ $(function () {
 
   function guard() {
     if ((currentPath == PRODUCT_PATH_KEY) && (Cookies.get(PRODUCT_COOKIE_KEY) === undefined)) {
-      console.log('product not selected');
       window.location.replace(INDEX_PATH_KEY);
+      console.log('product not selected');
     }
     
     if ((currentPath == CATEGORY_PATH_KEY) && (Cookies.get(CATEGORY_COOKIE_KEY) === undefined)) {
-      console.log('category not selected');
       window.location.replace(INDEX_PATH_KEY);
+      console.log('category not selected');
     }
   }
 

@@ -21,6 +21,8 @@
     --main-section-padding: 100px;
     --section-padding: 72px 0;
     --text-line-height: 150%;
+    --product-large-img-width: 250px;
+    --product-img-width: 200px;
     
     /* Text sizes */
     --text-ultra-large: 56px;
@@ -256,10 +258,6 @@ html, body {
     max-width: 540px;
 }
 
-.image--width {
-    width: 210px;
-}
-
 /* END  OF VAR PAGE */  
 
 /* Links */
@@ -485,6 +483,14 @@ html, body {
 	-ms-transition: all 400ms ease;
 	-o-transition: all 400ms ease;
 	transition: all 400ms ease;
+}
+
+.product {
+    max-width: var(--product-img-width);
+}
+
+.product--large {
+    max-width: var(--product-large-img-width);
 }
 
 /* Responsive */
