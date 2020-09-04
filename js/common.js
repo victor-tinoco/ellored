@@ -2,9 +2,12 @@ $(function () {
   "use strict";
 
   const logoElement = $(".header__logo");
+  const copyrightElement = $("#rights");
 
   bindLogo();
   initMenu();
+
+  copyrightElement.text(`Copyright © ${(new Date).getFullYear()} Ello Redutores. Todos os direitos reservados.`);
 
   function bindLogo() {
     logoElement.click(() => window.location.replace("index.html"));

@@ -499,6 +499,68 @@ html, body {
     -webkit-box-orient: vertical;
 }
 
+/* Whatsapp Button */
+.pulse-button {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 40px;
+    right: 40px;
+    z-index: 3;
+    width: 54px;
+    height: 54px;
+    border: none;
+    box-shadow: 0 0 0 0 #b6c734;
+    border-radius: 50%;
+    background: #C0D237;
+    background-image: -webkit-linear-gradient(top, #C0D237, #C0D237);
+    background-image: -moz-linear-gradient(top, #C0D237, #C0D237);
+    background-image: -ms-linear-gradient(top, #C0D237, #C0D237);
+    background-image: -o-linear-gradient(top, #C0D237, #C0D237);
+    background-image: linear-gradient(to bottom, #C0D237, #C0D237);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.16, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.16, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.16, 0, 0, 1);
+      animation: pulse 1.25s infinite cubic-bezier(0.16, 0, 0, 1);
+}
+.pulse-button:hover {
+animation: none;
+background: #b6c734;
+}
+
+.pulse-button, .pulse-button:visited, .pulse-button:link, .pulse-button:visited, .pulse-button:focus {
+    outline: none;
+}
+
+.pulse-button img {
+width: 22px;
+}
+
+@-webkit-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 30px rgba(217, 0, 0, 0);
+    }
+}
+@-moz-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 30px rgba(217, 0, 0, 0);
+    }
+}
+@-ms-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 30px rgba(217, 0, 0, 0);
+    }
+}
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 30px rgba(217, 0, 0, 0);
+    }
+}
+
 /* Responsive */
 
 @media (max-width: 992px) {
@@ -526,16 +588,26 @@ html, body {
     .footer__category {
         margin-bottom: 30px;
     }
-}
 
-
-@media (max-width: 992px) {
     .hamburger {
       display: flex;
       align-items: center;
     }
-
+    
     .header__nav {
         display: none !important;
+    }
+}
+
+/* Text */
+@media (max-width: 992px) {
+    .text__subtitle--ultra-large, .text__title--ultra-large, .text__subtitle--large, .text__title--large {
+        font-size: var(--text-medium);
+        line-height: var(--text-line-height);
+    }
+
+    .text__subtitle--ultra-small, .title--ultra-small  {
+        font-size: 20px;
+        line-height: 120%;
     }
 }

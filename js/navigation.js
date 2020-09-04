@@ -10,11 +10,13 @@ const PRODUCT_FOR_BUY_COOKIE_KEY = 'product_for_buy'
 $(function () {
   "use strict";
   const listNavElement = $('.js--list--nav');
+  const footerLinksRowElement = $('#js--footer--cols');
   const currentPath = window.location.pathname;
 
   guard();
   setupCookies();
   setupNavBarLinks();
+  setupFooterLinks();
 
   if (Cookies.get(CATEGORY_COOKIE_KEY)) console.log(`Category -> ${JSON.parse(Cookies.get(CATEGORY_COOKIE_KEY))}`);
   if (Cookies.get(PRODUCT_COOKIE_KEY)) console.log(`Product -> ${JSON.parse(Cookies.get(PRODUCT_COOKIE_KEY))}`);
@@ -23,12 +25,10 @@ $(function () {
   function guard() {
     if ((currentPath == PRODUCT_PATH_KEY) && (Cookies.get(PRODUCT_COOKIE_KEY) === undefined)) {
       window.location.replace(INDEX_PATH_KEY);
-      console.log('product not selected');
     }
     
     if ((currentPath == CATEGORY_PATH_KEY) && (Cookies.get(CATEGORY_COOKIE_KEY) === undefined)) {
       window.location.replace(INDEX_PATH_KEY);
-      console.log('category not selected');
     }
   }
 
@@ -40,12 +40,42 @@ $(function () {
   function setupNavBarLinks() {
     let list = '';
     for (const idx in database) {
-      if (idx != (database.length - 1)) list += database[idx].products.length > 1 
+      list += database[idx].products.length > 1 
         ? `<li><a href="category.html" onclick="selectCategory(${idx})">${database[idx].title}</a></li>`
         : `<li><a href="product.html" onclick="selectCategoryAndProduct(${idx}, ${0})">${database[idx].title}</a></li>`;
     }
     list += `<li><a href="contact.html" onclick="clearCookies()">Contato</a></li>`;
     listNavElement.html(list);
+  }
+
+  function setupFooterLinks() {
+    let nav = '';
+    nav += _setupFooterLinksColContainer(_setupFooterLinksColContainerContent(0));
+    nav += _setupFooterLinksColContainer(
+      _setupFooterLinksColContainerContent(6) +
+      _setupFooterLinksColContainerContent(1, 'mt-4'));
+    nav += _setupFooterLinksColContainer(_setupFooterLinksColContainerContent(2));
+    nav += _setupFooterLinksColContainer(_setupFooterLinksColContainerContent(5));
+    nav += _setupFooterLinksColContainer(_setupFooterLinksColContainerContent(3));
+    nav += _setupFooterLinksColContainer(_setupFooterLinksColContainerContent(4));
+    footerLinksRowElement.html(nav)
+  }
+
+
+  function _setupFooterLinksColContainerContent(idx, mt) { 
+    let category = database[idx]
+
+    let productListItem = '';
+    category.products.forEach((val, prodId) => {
+      productListItem += '<li><a href="product.html" onclick="selectCategoryAndProduct(' + idx + ', ' + prodId + ')">' + val.name + '</a></li>'
+    })
+
+    return '<h3 class="' + mt + '"><a href="category.html" onclick="' + idx + '" >' + category.title + '</a></h3>' +
+      '<ul>' + productListItem + '</ul>';
+  }
+
+  function _setupFooterLinksColContainer(inject) { 
+    return `<div class="col-lg-2 col-md-4 col-12 footer__category">${inject}</div>`
   }
 })
 
@@ -70,7 +100,7 @@ function selectCategoryAndProduct(catId, prodId) {
 
 function buy(idx) {
   selectProductForBuy(idx);
-  window.location.replace(CONTACT_PATH_KEY);
+  window.location.href = CONTACT_PATH_KEY;
 }
 
 function clearCookies() {

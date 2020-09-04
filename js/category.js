@@ -3,22 +3,25 @@ $(function () {
 
   const category = database[Cookies.get(CATEGORY_COOKIE_KEY)];
 
+  
   const headerTitleElement = $('#js--category--title');
-  const subcategoriesListElement = $('#js--subcategories');
+  // const subcategoriesListElement = $('#js--subcategories');
   
   const mainSectionElement = $('#js--main-section');
   const secondSectionElement = $('#js--second-section');
   const thirdSectionElement = $('#js--third-section');
   const fourthSectionElement = $('#js--fourth-section');
   
+  if (category.products.length == 1) window.location.replace(PRODUCT_PATH_KEY);
+
   headerTitleElement.text(category.title);
-  subcategoriesListElement.hide();
+  // subcategoriesListElement.hide();
 
   secondSectionElement.hide();
   thirdSectionElement.hide();
   fourthSectionElement.hide();
 
-  setupSubcategoriesLinks()
+  // setupSubcategoriesLinks()
 
   for (const idx in category.products) {
     switch (parseInt(idx)) {
@@ -92,17 +95,17 @@ $(function () {
     '</div>';
   }
 
-  function setupSubcategoriesLinks() {
-    switch (category.title) {
-      case database[0].title:
-        subcategoriesListElement.show();
-        subcategoriesListElement.html(
-          '<li><a class="text__body--small" href="#">Redutores e Motoredutores</a></li>' +
-          '<li class="ml-4"><a class="text__body--small" href="#">Transmissão Angular</a></li>'
-        );
-        break;
-      default:
-        break;
-    }
-  }
+  // function setupSubcategoriesLinks() {
+  //   switch (category.title) {
+  //     case database[0].title:
+  //       subcategoriesListElement.show();
+  //       subcategoriesListElement.html(
+  //         '<li><a class="text__body--small" href="#">Redutores e Motoredutores</a></li>' +
+  //         '<li class="ml-4"><a class="text__body--small" href="#">Transmissão Angular</a></li>'
+  //       );
+  //       break;
+  //     default:
+  //       break;
+  //   }
+  // }
 })
