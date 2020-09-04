@@ -49,6 +49,8 @@ $(function () {
   }
 })
 
+// Global Funcs
+
 function selectCategory(index) {
   Cookies.set(CATEGORY_COOKIE_KEY, index);
 }
@@ -64,6 +66,11 @@ function selectProductForBuy(index) {
 function selectCategoryAndProduct(catId, prodId) {
   selectCategory(catId);
   selectProduct(prodId);
+}
+
+function buy(idx) {
+  selectProductForBuy(idx);
+  window.location.replace(CONTACT_PATH_KEY);
 }
 
 function clearCookies() {

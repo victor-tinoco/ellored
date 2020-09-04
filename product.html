@@ -31,14 +31,14 @@
         </div>
     </header>
     
-    <section class="color__background--white section--padding-header">
+    <section id="js--header" class="color__background--white subheader--fixed">
         <div class="container">
             <div class="row">
                 <div class="col d-flex justify-content-between">
                     <h1 class="color__text--dark text__title--ultra-small">Redutor</h1>
                     <div class="d-flex justify-content-center">
                         <ul class="d-flex align-items-center single-link">
-                            <li class="mr-3"><a class=" text__body--small" href="#">Especificações</a></li>
+                            <li class="d-sm-block d-none mr-3"><a class="text__body--small" href="#js--specs--section">Especificações</a></li>
                         </ul>
                         <button class="button-group">Comprar</button>
                     </div>
@@ -47,68 +47,35 @@
         </div>
     </section>
 
-    <section>
-        <div class="container section--pading-div">
+    <section id="js--main--section">
+        <div class="container mt--header-and-subheader section--pading-div">
             <div class="row d-flex justify-content-center">
                 <div class="col d-flex flex-column align-items-center">
                     <h2 class="text__title--small color__text--medium-light">Linha QDR</h2>
                     <h1 class="text__title--large color__text--dark text-center">Redução. Torque.</h1>
-                    <p class="color__text--medium-light text__subtitle--description text--width text-center mb-5">Redutor de velocidade do tipo coroa e rosca sem fim, combinados com outros redutores do tipo. Esta combinação permite ampliar a gama de reduções e torque.</p>
-                    <img src="img/IBR.png" alt="IBR IMAGE">
+                    <p class="color__text--medium-light text__subtitle--description text--width text-center mt-3 mb-5">Redutor de velocidade do tipo coroa e rosca sem fim, combinados com outros redutores do tipo. Esta combinação permite ampliar a gama de reduções e torque.</p>
+                    <img class="product--large" src="/" alt="Imagem do produto">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="color__section--light">
+    <section id="js--specs--section" class="color__section--light">
         <div class="container section--pading-div">
             <div class="row d-flex justify-content-between">
                 <div  class="col-lg-6 col-sm-12">
                     <h1 class="color__text--dark text__title--medium width--medium">Entenda a melhor configuração para você.</h1>
                 </div>
-                <div class="d-flex flex-column align-items-center col-lg-6 col-sm-12">
+                <div id="js--specs--header" class="d-flex flex-column justify-content-center align-items-center col-lg-6 col-sm-12">
                     <h2 class="text__title--small color__text--dark mb-2">Linha QDR</h2>
                     <button class="button-group">Comprar</button>
                 </div>
             </div>
             <div class="row mt-5">
-                <table class="table col">
-                    <thead>
-                        <tr>
-                            <th scope="col" class="color__text--dark text__body--description-highlighted">Tamanho</th>
-                            <th scope="col" class="color__text--dark text__subtitle--description">302-156</th>
-                        </tr>
-                    </thead>
-                    <thead>
-                        <tr>
-                            <th scope="col" class="color__text--dark text__body--description-highlighted">Reduções</th>
-                            <th scope="col" class="color__text--dark text__subtitle--description">1:56.25 - 1:10.000</th>
-                        </tr>
-                    </thead>
-                    <thead>
-                        <tr>
-                            <th scope="col" class="color__text--dark text__body--description-highlighted">Potências</th>
-                            <th scope="col" class="color__text--dark text__subtitle--description">0.08cv - 3.00cv</th>
-                        </tr>
-                    </thead>
-                    <thead>
-                        <tr>
-                            <th scope="col" class="color__text--dark text__body--description-highlighted">Torques de saídas</th>
-                            <th scope="col" class="color__text--dark text__subtitle--description">17 - 1.883.5 N.m</th>
-                        </tr>
-                    </thead>
-                    <thead>
-                        <tr>
-                            <th scope="col" class="color__text--dark text__body--description-highlighted">Acessórios</th>
-                            <th scope="col" class="color__text--dark text__subtitle--description width--tiny">Flanges de saída Braços de torque Eixos de saída Eixos de entrada</th>
-                        </tr>
-                    </thead>
-                    <thead>
-                        <tr>
-                            <th scope="col" class="color__text--dark text__body--description-highlighted">Opcionais</th>
-                            <th scope="col" class="color__text--dark text__subtitle--description width--tiny">Eixos com dimensões especiais</th>
-                        </tr>
-                    </thead>
+                <table class="table specs-list col">
+                    <tbody>
+                        
+                    </tbody>
                 </table>
             </div>
         </div>
@@ -206,5 +173,6 @@
     <script type="text/javascript" src="js/database.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/navigation.js"></script>
+    <script type="text/javascript" src="js/product.js"></script>
 </body>
 </html>

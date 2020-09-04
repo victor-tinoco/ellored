@@ -106,8 +106,3 @@ $(function () {
     }
   }
 })
-
-function buy(idx) {
-  selectProductForBuy(idx);
-  window.location.replace(CONTACT_PATH_KEY);
-}
