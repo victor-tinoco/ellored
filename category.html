@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ello Redutores | Categoria</title>
 
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -15,7 +16,7 @@
 <body>
     <header class="header--fixed">
         <div class="container">
-            <div class="d-flex justify-content-between">
+            <nav class="d-flex justify-content-between">
                 <img class="header__logo" src="img/logo-ello.png" alt="Logo da Ello">
                 <ul class="js--list--nav header__nav d-flex align-items-center">
                     <li><a href="category.html">Redutor</a></li>
@@ -27,9 +28,30 @@
                     <li><a href="contact.html">Contato</a></li>
                 </ul>
                 <div class="hamburger"><span class="material-icons">menu</span></div>
-            </div>
+            </nav>
         </div>
     </header>
+
+    <div class="menu">
+        <div class="menu_door door_left"></div>
+        <div class="menu_door door_right"></div>
+        <div class="menu_content d-flex flex-column align-items-center justify-content-center">
+          <div class="menu_close">Fechar</div>
+          <div class="menu_nav_container">
+            <nav class="menu_nav text-center">
+              <ul class="js--list--nav">
+                <li><a href="category.html">Redutor</a></li>
+                <li><a href="category.html">Motor e motofreio</a></li>
+                <li><a href="category.html">Planetários de precisão</a></li>
+                <li><a href="category.html">Automação</a></li>
+                <li><a href="category.html">Variador</a></li>
+                <li><a href="category.html">Acoplamento</a></li>
+                <li><a href="contact.html">Contato</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </div>
 
     <section class="color__background--white subheader--fixed">
         <div class="container">
@@ -274,8 +296,8 @@
     <script type="text/javascript" src="plugins/TweenMax.min.js"></script>
     <script type="text/javascript" src="plugins/js.cookie.min.js"></script>
     <script type="text/javascript" src="js/database.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/navigation.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/category.js"></script>
 </body>
 </html>

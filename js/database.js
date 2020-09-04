@@ -11,8 +11,8 @@ var database =  [
           'Reduções': '1:7.5 - 1:100',
           'Potências': '0.08cv - 25.00cv',
           'Torques de Saídas': '4.1 - 1.316.6 N.m',
-          'Acessórios': 'Flanges de saída<br>Braços de torque<br>Eixos de saída<br>Eixos de entrada',
-          'Opcionais': 'Eixos com dimensões especiais',
+          'Acessórios': '- Flanges de saída<br>- Braços de torque<br>- Eixos de saída<br>- Eixos de entrada',
+          'Opcionais': '- Eixos com dimensões especiais',
         }
       },
       {
@@ -24,8 +24,8 @@ var database =  [
           'Reduções': '1:56.25 - 1:10.000',
           'Potências': '0.08cv - 3.00cv',
           'Torques de Saídas': '17 - 1.883.5 N.m',
-          'Acessórios': 'Flanges de saída<br>Braços de torque<br>Eixos de saída<br>Eixos de entrada',
-          'Opcionais': 'Eixos com dimensões especiais',
+          'Acessórios': '- Flanges de saída<br>- Braços de torque<br>- Eixos de saída<br>- Eixos de entrada',
+          'Opcionais': '- Eixos com dimensões especiais',
         }
       },
       {
@@ -37,8 +37,8 @@ var database =  [
           'Reduções': '1:15.38 - 1:1.086',
           'Potências': '0.16cv - 7.50cv',
           'Torques de Saídas': '31 - 1.464 N.m',
-          'Acessórios': 'Flanges de saída<br>Pés de fixação<br>Braços de torque<br>Eixos de saída<br>Eixos de entrada',
-          'Opcionais': 'Eixos com dimensões especiais',
+          'Acessórios': '- Flanges de saída<br>- Pés de fixação<br>- Braços de torque<br>- Eixos de saída<br>- Eixos de entrada',
+          'Opcionais': '- Eixos com dimensões especiais',
         }
       },
       {
@@ -50,8 +50,8 @@ var database =  [
           'Reduções': '1:7 - 1:102',
           'Potências': '0.08cv - 7.50cv',
           'Torques de Saídas': '7.6 - 347 N.m',
-          'Acessórios': 'Flanges de saída<br>Pés de fixação<br>Braços de torque<br>Eixos de saída<br>Eixos de entrada',
-          'Opcionais': 'Eixos com dimensões especiais<br>Anti-explosão<br>Pintura epóxi especial<br>Eixos em aço inox',
+          'Acessórios': '- Flanges de saída<br>- Pés de fixação<br>- Braços de torque<br>- Eixos de saída<br>- Eixos de entrada',
+          'Opcionais': '- Eixos com dimensões especiais<br>- Anti-explosão<br>- Pintura epóxi especial<br>- Eixos em aço inox',
         }
       },
       {
@@ -63,8 +63,8 @@ var database =  [
           'Reduções': '1:2.05 - 1:10.86',
           'Potências': '0.33cv - 7.50cv',
           'Torques de Saídas': '6.2 - 106.7 N.m',
-          'Acessórios': 'Flanges de saída<br>Pés de fixação<br>Eixos de entrada',
-          'Opcionais': 'Eixos com dimensões especiais<br>Anti-explosão',
+          'Acessórios': '- Flanges de saída<br>- Pés de fixação<br>- Eixos de entrada',
+          'Opcionais': '- Eixos com dimensões especiais<br>- Anti-explosão',
         }
       },
       {
@@ -76,8 +76,8 @@ var database =  [
           'Reduções': '1:3.44 - 1:680.03',
           'Potências': '0.25cv - 75.00cv',
           'Torques de Saídas': '10.2 - 4.756 N.m',
-          'Acessórios': 'Flanges de saída<br>Pés de fixação<br>Eixos de entrada',
-          'Opcionais': 'Eixos com dimensões especiais<br>Anti-explosão',
+          'Acessórios': '- Flanges de saída<br>- Pés de fixação<br>- Eixos de entrada',
+          'Opcionais': '- Eixos com dimensões especiais<br>- Anti-explosão',
         }
       },
       {
@@ -89,8 +89,8 @@ var database =  [
           'Reduções': '1:5.98 - 1:680.03',
           'Potências': '0.50cv - 30.00cv',
           'Torques de Saídas': '137.5 - 4.756 N.m',
-          'Acessórios': 'Flanges de saída<br>Pés de fixação<br>Eixos de entrada<br>Eixos de saída',
-          'Opcionais': 'Eixos com dimensões especiais<br>Anti-explosão',
+          'Acessórios': '- Flanges de saída<br>- Pés de fixação<br>- Eixos de entrada<br>- Eixos de saída',
+          'Opcionais': '- Eixos com dimensões especiais<br>- Anti-explosão',
         }
       },
       {
@@ -102,8 +102,8 @@ var database =  [
           'Reduções': '1:5.98 - 1:680.03',
           'Potências': '2.00cv - 30.00cv',
           'Torques de Saídas': '349.7 - 2.179 N.m',
-          'Acessórios': 'Flanges de saída<br>Eixos de entrada<br>Eixos de saída',
-          'Opcionais': 'Eixos com dimensões especiais<br>Anti-explosão',
+          'Acessórios': '- Flanges de saída<br>- Eixos de entrada<br>- Eixos de saída',
+          'Opcionais': '- Eixos com dimensões especiais<br>- Anti-explosão',
         }
       },
       {
@@ -115,8 +115,8 @@ var database =  [
           'Reduções': '1:4.83 - 1:821.7',
           'Potências': '0.16cv - 75.00cv',
           'Torques de Saídas': '14.4 - 4.813 N.m',
-          'Acessórios': 'Flanges de saída<br>Braços de torque<br>Eixos de saída<br>Eixos de entrada',
-          'Opcionais': 'Eixos com dimensões especiais<br>Anti-explosão<br>Pintura epóxi especial<br>Eixos em aço inox',
+          'Acessórios': '- Flanges de saída<br>- Braços de torque<br>- Eixos de saída<br>- Eixos de entrada',
+          'Opcionais': '- Eixos com dimensões especiais<br>- Anti-explosão<br>- Pintura epóxi especial<br>- Eixos em aço inox',
         }          
       },
     ],
@@ -133,7 +133,7 @@ var database =  [
           'Potências': '0.08cv - 0.95cv',
           'Motores': '2, 4, 6 e 8 pólos',
           'Opções de flanges': 'C-DIN (B14), FF (B5) e tampa (B3)',
-          'Opcionais': 'Pés de fixacão',
+          'Opcionais': '- Pés de fixacão',
         }        
       },
       {
@@ -144,7 +144,7 @@ var database =  [
           'Potências': '0.16cv - 4.00cv',
           'Motores': '4 pólos',
           'Opções de flanges': 'C-DIN (B14), FF (B5) e tampa (B3)',
-          'Opcionais': 'Pés de fixacão',
+          'Opcionais': '- Pés de fixacão',
         }
       },
       {
@@ -155,7 +155,7 @@ var database =  [
           'Potências': '0.16cv - 0.93cv',
           'Motores': '4 pólos',
           'Opções de flanges': 'C-DIN (B14), FF (B5) e tampa (B3)',
-          'Opcionais': 'Pés de fixacão',
+          'Opcionais': '- Pés de fixacão',
         }
       },
       {
@@ -166,7 +166,7 @@ var database =  [
           'Potências': '0.16cv - 30.00cv',
           'Motores': '2, 4, 6 e 8 pólos',
           'Opções de flanges': 'C-DIN (B14), FF (B5) e tampa (B3)',
-          'Opcionais': 'Pés de fixacão',
+          'Opcionais': '- Pés de fixacão',
         }
       },
       {
@@ -177,8 +177,8 @@ var database =  [
           'Potências': '0.16cv - 30.00cv',
           'Motores': '2, 4, 6 e 8 pólos',
           'Opções de flanges': 'C-DIN (B14), FF (B5) e tampa (B3)',
-          'Opcionais': 'Pés de fixacão',
-          'Algumas aplicações': 'Elevadores de carga<br>Talhas<br>Máquinas-ferramentas<br>Teares<br>Máquinas de embalagem<br>Transportadores<br>Máquinas de lavar e engarrafar<br>Dobradeiras<br>Demais equipamentos onde são exigidas paradas rápidas por questões de segurança, posicionamento e economia de tempo.',
+          'Opcionais': '- Pés de fixacão',
+          'Algumas aplicações': '- Elevadores de carga<br>- Talhas<br>- Máquinas-ferramentas<br>- Teares<br>- Máquinas de embalagem<br>- Transportadores<br>- Máquinas de lavar e engarrafar<br>- Dobradeiras<br>- Demais equipamentos onde são exigidas paradas rápidas por questões de segurança, posicionamento e economia de tempo.',
         }
       },
     ],
@@ -345,7 +345,7 @@ var database =  [
           'Potência': '0,25 a 20cv',
           'Tensão': '200 a 240V, 380 a 480V e 500 a 600V',
           'Redes': 'Profibus DP (opcional), CANopen, DeviceNet e Modbus RTU (protocolo incorporado)',
-          'Características': 'Controle V/F (escalar) ou vetorial sensorless<br>Alto torque em baixas rotações<br>Grau de proteção NEMA 1<br>Funções de proteção / sobrecarga integradas<br>Freqüências de ressonância podem ser evitadas a fim de minimizar o stress mecânico na máquina<br>Freqüência de chaveamento variável a fim de minimizar o ruído acústico no motor<br>Tempos de aceleração e desaceleração independentemente parametrizáveis<br>Comunicação com microcomputador para utilização do software de programação e monitoração SUPERDRIVE<br>Frenagem reostática e CC<br>Filtros EMC (incorporado)<br>Regulador PID<br>IHM remota paralela e serial (opcionais)<br>Controle sistema Multibombas',
+          'Características': '- Controle V/F (escalar) ou vetorial sensorless<br>- Alto torque em baixas rotações<br>- Grau de proteção NEMA 1<br>- Funções de proteção / sobrecarga integradas<br>- Freqüências de ressonância podem ser evitadas a fim de minimizar o stress mecânico na máquina<br>- Freqüência de chaveamento variável a fim de minimizar o ruído acústico no motor<br>- Tempos de aceleração e desaceleração independentemente parametrizáveis<br>- Comunicação com microcomputador para utilização do software de programação e monitoração SUPERDRIVE<br>- Frenagem reostática e CC<br>- Filtros EMC (incorporado)<br>- Regulador PID<br>- IHM remota paralela e serial (opcionais)<br>- Controle sistema Multibombas',
         }
       },
       {
@@ -356,7 +356,7 @@ var database =  [
           'Tensão de entrada': '100 a 135V e 200 a 240V',
           'Tensão de saída': '200 a 240V',
           'Métodos de variação de velocidade': 'potenciômetro incorporado no produto, potenciômetro através das entradas analógicas, potenciômetro via teclado e multi-speed',
-          'Características': 'Alimentação monofásica / trifásica<br>Alto torque de partida<br>Design compacto permitindo simples instalação e fácil manuseio<br>Modulação PWM senoidal - Space Vector Modulation<br>Módulos IGBT de última geração e eletrônica com componentes SMD<br>Controle com DSP<br>Regulador PID<br>Filtro EMC incorporado (modelos alimentados em 220 V)<br>Versão com dissipadores cold-plate',
+          'Características': '- Alimentação monofásica / trifásica<br>- Alto torque de partida<br>- Design compacto permitindo simples instalação e fácil manuseio<br>- Modulação PWM senoidal - Space Vector Modulation<br>- Módulos IGBT de última geração e eletrônica com componentes SMD<br>- Controle com DSP<br>- Regulador PID<br>- Filtro EMC incorporado (modelos alimentados em 220 V)<br>- Versão com dissipadores cold-plate',
         }
       },
       {
@@ -367,8 +367,8 @@ var database =  [
           'Corrente nominal de saída': '1,6 a 15,2 A',
           'Tensão de alimentação': '110-127 V ou 200-240 V monofásica e 200-240 V trifásica',
           'Link CC': '280-340 V CC',
-          'Principais características': '4 entradas digitais selecionáveis NPN/PNP (0-24 V CC)<br>1 saída à relé (0,5 A-250 V CA)<br>1 entrada analógica (0-10 V CC ou 0/4-20 mA)<br>Controle de motor vetorial (VVW) ou escalar (V/F) selecionável<br>Função SoftPLC<br>Instalação simples, estilo contator<br>Interface de operação (IHM) incorporada<br>Temperatura ambiente de operação 0 °C a 50 °C<br>Montagem lado a lado sem espaçamento entre inversores<br>Fixação em superfície ou trilho DIN ou parafusos<br>IGBT de frenagem (tamanho B)<br>Grau de proteção IP20<br>Controle do ventilador e sistema de troca rápida<br>Software WPS gratuito - integrado programação, monitoramento e SoftPLC<br>Proteção classe 3C2 (padrão de fábrica)<br>RoHS<br>IHM remota.',
-          'Acessórios': 'Possibilidade de utilização de dois acessórios plug-ins opcionais (um de expansão de funções e um de comunicação)<br>Expansão de entradas e saídas (E/S)<br>Encoder incremental<br>Infravermelho (em desenvolvimento)<br>Porta USB<br>Redes de comunicação: RS232, RS485, CANopen, DeviceNet, Profibus-DP<br>Cartão de memória flash<br>Filtro RFI externo tipo footprint categoria C2 ou C3, para redução do nível de emissão conduzida, de acordo com as normas IEC 61800-3 e EN 55011.',
+          'Principais características': '- 4 entradas digitais selecionáveis NPN/PNP (0-24 V CC)<br>- 1 saída à relé (0,5 A-250 V CA)<br>- 1 entrada analógica (0-10 V CC ou 0/4-20 mA)<br>- Controle de motor vetorial (VVW) ou escalar (V/F) selecionável<br>- Função SoftPLC<br>- Instalação simples, estilo contator<br>- Interface de operação (IHM) incorporada<br>- Temperatura ambiente de operação 0 °C a 50 °C<br>- Montagem lado a lado sem espaçamento entre inversores<br>- Fixação em superfície ou trilho DIN ou parafusos<br>- IGBT de frenagem (tamanho B)<br>- Grau de proteção IP20<br>- Controle do ventilador e sistema de troca rápida<br>- Software WPS gratuito - integrado programação, monitoramento e SoftPLC<br>- Proteção classe 3C2 (padrão de fábrica)<br>- RoHS<br>- IHM remota.',
+          'Acessórios': '- Possibilidade de utilização de dois acessórios plug-ins opcionais (um de expansão de funções e um de comunicação)<br>- Expansão de entradas e saídas (E/S)<br>- Encoder incremental<br>- Infravermelho (em desenvolvimento)<br>- Porta USB<br>- Redes de comunicação: RS232, RS485, CANopen, DeviceNet, Profibus-DP<br>- Cartão de memória flash<br>- Filtro RFI externo tipo footprint categoria C2 ou C3, para redução do nível de emissão conduzida, de acordo com as normas IEC 61800-3 e EN 55011.',
         }
       },
       {
@@ -376,37 +376,37 @@ var database =  [
         description: 'Destinado para o acionamento de motores trifásicos e monofásicos na faixa de potência de 0,25 a 20cv.',
         imgPath: 'img/produtos/automacao/linha-cfw500.webp',
         specifications: {
-          'Características': 'Corrente nominal de saída de 1 a 47 A (0,25 a 20cv)<br>Alimentação monofásica ou trifásica<br>Faixa de tensão de 200-480 V<br>Controle vetorial (VVW) ou Escalar (V/F)<br>Cartões plug-in para expansão de recursos<br>Filosofia plug and play<br>Função SoftPLC incorporada<br>Interface de operação e programação (IHM) incorporada<br>Porta RS485 padrão (módulo plug-in)<br>Entradas e saídas (digitais e analógicas)<br>Entradas e saídas digitais em frequência<br>Instalação lado a lado (para temperaturas abaixo de 40 ºC)<br>Temperatura ambiente de operação 50 ºC<br>Montagem em superfície ou trilho DIN<br>IGBT de frenagem *<br>Conformal coating padrão de fábrica<br>Grau de proteção IP20 (padrão) e NEMA1 (opcional)<br>Ventilador com sistema de troca rápida<br>Filtro RFI interno (opcional)<br>Diagnósticos de alarmes ou falhas<br>Opcionais para comunicação em redes industriais:<br>CANopen, DeviceNet, Profibus-DP e RS232<br>Comunicação USB (opcional)<br>Cartão de memória para transferência de dados<br>(parâmetros e SoftPLC) entre CFW500 (opcional)<br>Softwares de programação gratuitos WLP e SuperDrive G2<br>Interface de operação remota serial (opcional)',
+          'Características': '- Corrente nominal de saída de 1 a 47 A (0,25 a 20cv)<br>- Alimentação monofásica ou trifásica<br>- Faixa de tensão de 200-480 V<br>- Controle vetorial (VVW) ou Escalar (V/F)<br>- Cartões plug-in para expansão de recursos<br>- Filosofia plug and play<br>- Função SoftPLC incorporada<br>- Interface de operação e programação (IHM) incorporada<br>- Porta RS485 padrão (módulo plug-in)<br>- Entradas e saídas (digitais e analógicas)<br>- Entradas e saídas digitais em frequência<br>- Instalação lado a lado (para temperaturas abaixo de 40 ºC)<br>- Temperatura ambiente de operação 50 ºC<br>- Montagem em superfície ou trilho DIN<br>- IGBT de frenagem *<br>- Conformal coating padrão de fábrica<br>- Grau de proteção IP20 (padrão) e NEMA1 (opcional)<br>- Ventilador com sistema de troca rápida<br>- Filtro RFI interno (opcional)<br>- Diagnósticos de alarmes ou falhas<br>- Opcionais para comunicação em redes industriais:<br>- CANopen, DeviceNet, Profibus-DP e RS232<br>- Comunicação USB (opcional)<br>- Cartão de memória para transferência de dados<br>- (parâmetros e SoftPLC) entre CFW500 (opcional)<br>- Softwares de programação gratuitos WLP e SuperDrive G2<br>- Interface de operação remota serial (opcional)',
         }
       },
       {
         name: 'Linha CFW700',
-        description: 'Especialmente otimizado para as mais diversas aplicações, possui controle vetorial, robustez e vários acessórios já incorporados no produto padrão, aliados a qualidade dos inversores WEG sempre com ótimo custo benefício.<br><br>No CFW700 a instalação dos acessórios também é baseada na filosofia “conecte e use” ou seja, eles são configurados automaticamente quando conectados ao inversor, garantindo mais rapidez e simplicidade.',
+        description: 'Especialmente otimizado para as mais diversas aplicações, possui controle vetorial, robustez e vários acessórios já incorporados no produto padrão, aliados a qualidade dos inversores WEG sempre com ótimo custo benefício. No CFW700 a instalação dos acessórios também é baseada na filosofia “conecte e use” ou seja, eles são configurados automaticamente quando conectados ao inversor, garantindo mais rapidez e simplicidade.',
         imgPath: 'img/produtos/automacao/linha-cfw700.webp',
         specifications: {
-          'Tensão de alimentação - corrente nominal de saída': '220Vca Monofásica: 6 a 10A (1,5 a 3cv)<br>220Vca Trifásica: 6 a 211A (1,5 a 75cv)<br>380-480Vca Trifásica: 3,6 a 211A (2 a 175cv)<br><br>Estrutura compacta, ideal para instalação em espaços reduzidos.<br>Alta precisão e confiabilidade no controle de velocidade e de torque.<br>Robustez de hardware.',
+          'Tensão de alimentação - corrente nominal de saída': '- 220Vca Monofásica: 6 a 10A (1,5 a 3cv)<br>- 220Vca Trifásica: 6 a 211A (1,5 a 75cv)<br>- 380-480Vca Trifásica: 3,6 a 211A (2 a 175cv)<br><br>- Estrutura compacta, ideal para instalação em espaços reduzidos.<br>- Alta precisão e confiabilidade no controle de velocidade e de torque.<br>- Robustez de hardware.',
           'Indutores no barramento CC': 'Não necessita de reatância de rede<br><br>Instalação em qualquer rede, sem restrição de impedância mínima<br>Atende a norma IEC61000-3-12<br><br>Entrada para encoder incremental isolada',
           'Gerenciamento Térmico Inteligente': 'Não necessita de reatância de rede<br><br>Monitoração da temperatura do dissipador e do ar interno nos cartões eletrônicos<br>Monitoração e indicação da velocidade e o número de horas de operação do ventilador<br>Ventilador é facilmente removível para limpeza<br><br>8 entradas e 5 saídas digitais',
-          'Funções': 'Start-up orientado: principais parâmetros agrupados numa sequência lógica, para simplificar e dar mais rapidez na colocação em funcionamento do inversor.<br>Multi-speed: até 8 velocidades pré-programadas.<br>Função de auto-ajuste: modo vetorial ou VVW.<br>Regulador PID: controle de variáveis de processos através da variação da velocidade do motor (via SoftPLC).<br>Potenciômetro eletrônico: permite o ajuste da referência de velocidade via entradas digitais (via SoftPLC).<br>Flying Start: permite acelerar o motor (em giro livre) a partir da rotação em que ele se encontra.<br>Rampa “S”: redução de choques mecânicos durante acelerações/desacelerações.<br>Função pular velocidade: evita que o motor opere permanentemente em valores de velocidade onde o sistema mecânico entra em ressonância, causando vibração ou ruídos exagerados.<br>Proteção de sobrecarga do motor: baseada em curvas que simulam o aquecimento e resfriamento do motor em casos de sobrecarga, conforme normas IEC 60947-4-2 e UL508C.<br>Ajuste da classe térmica do motor: seu correto ajuste torna mais real o tempo de atuação da proteção de sobrecarga.<br>Proteção de sobretemperatura do motor: proteção contra sobretemperatura, com sensor tipo PTC.<br>Proteção de sobrecarga no inversor: protege os IGBTs e os retificadores de entrada do inversor em caso de sobrecarga.<br>Ride-through: possibilita a recuperação do inversor, sem bloqueio por subtensão, quando ocorrer uma quebra na rede de alimentação.',
-          'Opcionais': 'Comunicação em rede:<br><br>Devicenet, CANopen, Profibus DP, RS-485 (modbus)<br>IHM para montagem remota (não necessita de fonte externa)<br>Módulo de memória FLASH<br>Módulo de parada de segurançaA ativação da função de parada de segurança bloqueia os pulsos PWM de acionamento dos IGBTs, garantindo que o motor permanecerá parado.<br><br>Atende a EN954-1, Categoria 3',
+          'Funções': '- Start-up orientado: principais parâmetros agrupados numa sequência lógica, para simplificar e dar mais rapidez na colocação em funcionamento do inversor.<br>- Multi-speed: até 8 velocidades pré-programadas.<br>- Função de auto-ajuste: modo vetorial ou VVW.<br>- Regulador PID: controle de variáveis de processos através da variação da velocidade do motor (via SoftPLC).<br>- Potenciômetro eletrônico: permite o ajuste da referência de velocidade via entradas digitais (via SoftPLC).<br>- Flying Start: permite acelerar o motor (em giro livre) a partir da rotação em que ele se encontra.<br>- Rampa “S”: redução de choques mecânicos durante acelerações/desacelerações.<br>- Função pular velocidade: evita que o motor opere permanentemente em valores de velocidade onde o sistema mecânico entra em ressonância, causando vibração ou ruídos exagerados.<br>- Proteção de sobrecarga do motor: baseada em curvas que simulam o aquecimento e resfriamento do motor em casos de sobrecarga, conforme normas IEC 60947-4-2 e UL508C.<br>- Ajuste da classe térmica do motor: seu correto ajuste torna mais real o tempo de atuação da proteção de sobrecarga.<br>- Proteção de sobretemperatura do motor: proteção contra sobretemperatura, com sensor tipo PTC.<br>- Proteção de sobrecarga no inversor: protege os IGBTs e os retificadores de entrada do inversor em caso de sobrecarga.<br>- Ride-through: possibilita a recuperação do inversor, sem bloqueio por subtensão, quando ocorrer uma quebra na rede de alimentação.',
+          'Opcionais': 'Comunicação em rede:<br><br>- Devicenet, CANopen, Profibus DP, RS-485 (modbus)<br>- IHM para montagem remota (não necessita de fonte externa)<br>- Módulo de memória FLASH<br>- Módulo de parada de segurançaA ativação da função de parada de segurança bloqueia os pulsos PWM de acionamento dos IGBTs, garantindo que o motor permanecerá parado.<br><br>Atende a EN954-1, Categoria 3',
         }
       },
       {
         name: 'Linha SSW05',
-        description: 'Soft-Starter WEG são chaves de partida estática, destinadas à aceleração, desaceleração e proteção de motores de indução trifásicos. O controle da tensão aplicada ao motor, mediante o ajuste do ângulo de disparo dos tiristores, permite obter partidas e paradas suaves.<br><br>Com o ajuste adequado das variáveis, o torque produzido é ajustado à necessidade da carga, garantindo, desta forma, que a corrente solicitada seja a mínima necessária para a partida.',
+        description: 'Soft-Starter WEG são chaves de partida estática, destinadas à aceleração, desaceleração e proteção de motores de indução trifásicos. O controle da tensão aplicada ao motor, mediante o ajuste do ângulo de disparo dos tiristores, permite obter partidas e paradas suaves. Com o ajuste adequado das variáveis, o torque produzido é ajustado à necessidade da carga, garantindo, desta forma, que a corrente solicitada seja a mínima necessária para a partida.',
         imgPath: 'img/produtos/automacao/linha-ssw05.webp',
         specifications: {
           'Aplicações': 'Bombas centrífugas, ventiladores de baixa inércia, compressores de ar, refrigeração (parafuso), com partida em alívio.',
-          'Características': 'Correntes: 3 a 85A<br>Tensão: 220 a 575V<br>By-pass incorporado<br>Controle com DSP<br>IHM remota (opcional)<br>Proteções do motor incorporadas<br>Operação em ambientes de até 55°C<br>Comunicação serial RS-232 incorporada',
+          'Características': '- Correntes: 3 a 85A<br>- Tensão: 220 a 575V<br>- By-pass incorporado<br>- Controle com DSP<br>- IHM remota (opcional)<br>- Proteções do motor incorporadas<br>- Operação em ambientes de até 55°C<br>- Comunicação serial RS-232 incorporada',
         }
       },
       {
         name: 'Linha SSW06',
-        description: 'Chave de partida estática com controle de três fases do motor, by-pass incorporado e controle de torque.<br><br>Soft-Starter WEG são chaves de partida estática, destinadas à aceleração, desaceleração e proteção de motores de indução trifásicos. O controle da tensão aplicada ao motor, mediante o ajuste do ângulo de disparo dos tiristores, permite obter partidas e paradas suaves.<br><br>Com o ajuste adequado das variáveis, o torque produzido é ajustado à necessidade da carga, garantindo, desta forma, que a corrente solicitada seja a mínima necessária para a partida.',
+        description: 'Chave de partida estática com controle de três fases do motor, by-pass incorporado e controle de torque. Soft-Starter WEG são chaves de partida estática, destinadas à aceleração, desaceleração e proteção de motores de indução trifásicos. O controle da tensão aplicada ao motor, mediante o ajuste do ângulo de disparo dos tiristores, permite obter partidas e paradas suaves. Com o ajuste adequado das variáveis, o torque produzido é ajustado à necessidade da carga, garantindo, desta forma, que a corrente solicitada seja a mínima necessária para a partida.',
         imgPath: 'img/produtos/automacao/linha-ssw06.webp',
         specifications: {
           'Aplicações': 'Bombas centrífugas, alternativas (saneamento, irrigação e petróleo), ventiladores, exaustores, sopradores, compressores de ar, refrigeração (parafuso e pistão), misturadores, aeradores, centrífugas, britadores, moedores, picadores de madeira, refinadores de papel, fornos rotativos, serras e plainas (madeira), moinhos (bolas e martelo) e transportadores de carga.',
-          'Características': 'Correntes: 10 a 1400A (200-575V) e 45 a 1400A (575-690V)<br>Tensão: 220 a 575V ou 575 a 690V<br>Métodos de partida e parada programáveis: rampa de tensão, limite de corrente, rampa de corrente, controle de bombas e controle de torque<br>By-pass incorporado nos modelos até 820A<br>IHM destacável com duplo display (LED/LCD)<br>Função "Kick-Start" para partidas com elevado atrito estático<br>Função "Pump Control" para controle inteligente de sistemas de bombeamento<br>Proteções do motor e da soft-starter incorporadas<br>Operação em ambientes de até 55 °C sem derating para os modelos 10 a 820A e até 40 °C sem derating para os modelos 950 a 1400A<br>Redes: Profibus DP, DeviceNet, EtherNet/IP e Modbus/TCP (opcionais)<br>Comunicação Modbus RTU em RS232 incorporada e RS485 ou USB (opcionais)<br>Entrada para PTC do motor<br>Permite ligação dentro do delta do motor (6 cabos somente para os modelos 220-575V) ou standard (3 cabos)<br>Diagnósticos de falhas e de funcionamento<br>SoftPLC para desenvolvimento de pequenas aplicações',
+          'Características': '- Correntes: 10 a 1400A (200-575V) e 45 a 1400A (575-690V)<br>- Tensão: 220 a 575V ou 575 a 690V<br>- Métodos de partida e parada programáveis: rampa de tensão, limite de corrente, rampa de corrente, controle de bombas e controle de torque<br>- By-pass incorporado nos modelos até 820A<br>- IHM destacável com duplo display (LED/LCD)<br>- Função "Kick-Start" para partidas com elevado atrito estático<br>- Função "Pump Control" para controle inteligente de sistemas de bombeamento<br>- Proteções do motor e da soft-starter incorporadas<br>- Operação em ambientes de até 55 °C sem derating para os modelos 10 a 820A e até 40 °C sem derating para os modelos 950 a 1400A<br>- Redes: Profibus DP, DeviceNet, EtherNet/IP e Modbus/TCP (opcionais)<br>- Comunicação Modbus RTU em RS232 incorporada e RS485 ou USB (opcionais)<br>- Entrada para PTC do motor<br>- Permite ligação dentro do delta do motor (6 cabos somente para os modelos 220-575V) ou standard (3 cabos)<br>- Diagnósticos de falhas e de funcionamento<br>- SoftPLC para desenvolvimento de pequenas aplicações',
         }
       },
       {
@@ -415,7 +415,7 @@ var database =  [
         imgPath: 'img/produtos/automacao/linha-ssw07.webp',
         specifications: {
           'Aplicações': 'Bombas centrífugas, alternativas (saneamento, irrigação e petróleo), ventiladores, exaustores, sopradores, compressores de ar, refrigeração (parafuso e pistão), misturadores, aeradores, centrífugas, britadores, moedores, picadores de madeira, refinadores de papel, fornos rotativos, serras e plainas (madeira), moinhos (bolas e martelo) e transportadores de carga.',
-          'Características': 'Correntes: 17 a 412A<br>Tensão: 220 a 575V<br>By-pass incorporado<br>Elevado regime de partidas<br>Controle total nas três fases<br>Proteção do motor e da chave incorporada<br>Função "Kick-Start" para partidas com elevado atrito estático<br>IHM local ou remota (opcional)<br>Entrada para PTC do motor (opcional)<br>Operação em ambientes de até 55 °C<br>Pesos e dimensões extremamente reduzidas<br>Comunicação: Profibus DP, DeviceNet, RS232 e RS485 (opcional)',
+          'Características': '- Correntes: 17 a 412A<br>- Tensão: 220 a 575V<br>- By-pass incorporado<br>- Elevado regime de partidas<br>- Controle total nas três fases<br>- Proteção do motor e da chave incorporada<br>- Função "Kick-Start" para partidas com elevado atrito estático<br>- IHM local ou remota (opcional)<br>- Entrada para PTC do motor (opcional)<br>- Operação em ambientes de até 55 °C<br>- Pesos e dimensões extremamente reduzidas<br>- Comunicação: Profibus DP, DeviceNet, RS232 e RS485 (opcional)',
         }
       },
     ],
@@ -431,7 +431,7 @@ var database =  [
           'Reduções': '1:1.6 - 1:8.2',
           'Potências': '0.25cv - 4.00cv',
           'Torques de Saídas': '1.24 - 29.63 N.m',
-          'Acessórios': 'Flanges de saída<br>Pés fixação',
+          'Acessórios': '- Flanges de saída<br>- Pés fixação',
         }
       }
     ],
@@ -474,7 +474,7 @@ var database =  [
           'Eixos': 'AB, AC e ABC',
           'Potências': '0.08cv - 18.30cv',
           'Rotações': '50 rpm - 3.600 rpm',
-          'Opcionais': 'Carcaça e eixo em inox no tamanho 2',
+          'Opcionais': '- Carcaça e eixo em inox no tamanho 2',
         }
       }
     ],

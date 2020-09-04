@@ -36,7 +36,7 @@ $(function () {
   function buildTableItem(title, desc) {
     return '<tr>'
     + '<th scope="col" class="align-middle color__text--dark text__body--description-highlighted w-50">' + title + '</th>'
-    + '<th scope="col" class="align-middle color__text--dark text__body--paragraph text-center w-50">' + desc + '</th>' +
+    + '<th scope="col" class="align-middle color__text--dark text__body--paragraph  w-50">' + desc + '</th>' +
     '</tr>';
   }
 

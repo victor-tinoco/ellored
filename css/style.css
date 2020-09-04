@@ -233,20 +233,16 @@ html, body {
     max-width: 595px;
 }
 
+.width--contact {
+    max-width: 650px;
+}
+
 .width--ultra-small {
     max-width: 340px;
 }
 
 .width--ultra-large {
     max-width: 800px;
-}
-
-.section-width {
-    max-width: 850px;
-}
-
-.width--large {
-    width: 540px;
 }
 
 
