@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="row">
-                <form class="col-lg-12 col-sm-12" action="submit">
+                <form method="POST" action="php/contact.php" enctype="text/plain" class="col-lg-12 col-sm-12" action="submit">
                     <label class="mb-1 color__text--medium-light text__body--small" for="company">Empresa</label>
                     <input class="group-input w-100 mb-3" placeholder="Empresa" type="text" id="company" name="company">
                     <label class="mb-1 color__text--medium-light text__body--small" for="name">Nome</label>
@@ -93,10 +93,10 @@
                     <input class="group-input w-100 mb-3" placeholder="Motivo de contato" type="text" id="messageTitle" name="messageTitle">
                     <label class="mb-1 color__text--medium-light text__body--small" for="message">Mensagem</label>
                     <textarea class="group-input w-100" id="message" name="message" placeholder="Mensagem" cols="65" rows="5"></textarea>
+                    <div class="mt-3 d-flex justify-content-end">
+                        <button type="submit" class="button-group ">Enviar</button>
+                    </div>
                 </form>
-            </div>
-            <div class="mt-2 d-flex justify-content-end">
-                <button class="button-group ">Enviar</button>
             </div>
         </div>
     </section>
