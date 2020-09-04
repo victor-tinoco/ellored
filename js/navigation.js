@@ -40,7 +40,9 @@ $(function () {
   function setupNavBarLinks() {
     let list = '';
     for (const idx in database) {
-      list += `<li><a href="category.html" onclick="selectCategory(${idx})">${database[idx].title}</a></li>`;
+      if (idx != (database.length - 1)) list += database[idx].products.length > 1 
+        ? `<li><a href="category.html" onclick="selectCategory(${idx})">${database[idx].title}</a></li>`
+        : `<li><a href="product.html" onclick="selectCategoryAndProduct(${idx}, ${0})">${database[idx].title}</a></li>`;
     }
     list += `<li><a href="contact.html" onclick="clearCookies()">Contato</a></li>`;
     listNavElement.html(list);
@@ -57,6 +59,11 @@ function selectProduct(index) {
 
 function selectProductForBuy(index) {
   Cookies.set(PRODUCT_FOR_BUY_COOKIE_KEY, index);
+}
+
+function selectCategoryAndProduct(catId, prodId) {
+  selectCategory(catId);
+  selectProduct(prodId);
 }
 
 function clearCookies() {

@@ -68,7 +68,7 @@ $(function () {
     for (let i = 0; i <= 2; i++) {
       let specs = category.products[idx].specifications;
       let key = Object.keys(specs)[i]
-      if (key) specsParagraphsList += '<p class="color__text--dark text__body--paragraph text-center">' + key + ': ' + specs[key] + '</p>';
+      if (key) specsParagraphsList += '<p class="color__text--dark text__body--paragraph text-center description-item">' + key + ': ' + specs[key] + '</p>';
     }
 
     return '<div class="col-sm-12 col-lg mt-5 mt-lg-0 mb-5 mb-lg-0 d-flex align-items-center justify-content-end flex-column">'
@@ -82,7 +82,7 @@ $(function () {
 
   function buildFourthSectionItem(idx) {
     return '<div class="col-sm-12 col-lg p-2">'
-    + '<div class="color__background--white section--pading-div d-flex flex-column align-items-center ">'
+    + '<div class="color__background--white h-100 section--pading-div d-flex flex-column align-items-center ">'
     +    '<h1 class="color__text--dark text__title--large mb-2">'+ category.products[idx].name + '</h1>'
     +    '<h2 class="text__subtitle--ultra-small color__text--dark width--small mb-2 text-center">Energia. Velocidade. Resistência. Precisão.<br>Excelência em qualidade e tecnologia.</h2>'
     +    '<!-- <p class="color__text--medium-light text__subtitle--description mb-2">Lorem ipsum dolor sit amet, consectetur.</p> -->'
