@@ -41,7 +41,7 @@ if ($sended) {
     ";
     echo "Informações do erro: 
     " . $mail->ErrorInfo;
-    echo '<script>window.history.back();</script>';
+    echo '<script>window.location.replace("index.html");</script>';
 }
 
 ?>
