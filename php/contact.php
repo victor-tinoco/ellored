@@ -34,7 +34,7 @@ $mail->ClearAttachments();
 
 if ($sended) {
     echo "E-mail enviado com sucesso!";
-    echo '<script>window.history.back();</script>';
+    echo '<script>window.location.replace("index.html");</script>';
 } else {
     echo "Não foi possível enviar o e-mail.
     
