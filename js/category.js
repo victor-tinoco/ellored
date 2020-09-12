@@ -14,7 +14,7 @@ $(function () {
   
   if (category.products.length == 1) window.location.replace(PRODUCT_PATH_KEY);
 
-  headerTitleElement.text(category.title);
+  headerTitleElement.text(category.title + (category.title == 'Automação' ? ' - Inversores e Soft Starters' : ''));
   // subcategoriesListElement.hide();
 
   secondSectionElement.hide();
