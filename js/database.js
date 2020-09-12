@@ -210,6 +210,21 @@ var database =  [
         }
       },
       {
+        name: 'Linha SBL',
+        description: 'Redutores planetários de alta precisão com qualidade superiror e maior capacidade de torque. Linha Premium.',
+        imgPath: 'img/produtos/planetarios/linha-sbl.webp',
+        specifications: {
+          'Folga Reduzida': 'Folga abaixo de 7 arco minuto. Sendo possível escolher especificações com até 1 arco minuto de folga.',
+          'Alta velocidade de entrada': 'Permite velocidades de entrada de 5.000 RPM.',
+          'Alto Torque': 'Maior torque de saída em comparação à redutores planetários que possuem engrenagens de dentes retos.',
+          'Alta Estabilidade': 'Produzido com aço de alta resistência. A dureza está em toda a engrenagem ao invés de estar apenas na superfície, proporciona aumento da vida útil mantendo a alta precisão mesmo após longo período de operação.',
+          'Baixo ruído': 'Abaixo de 65 dB.',
+          'Alta eficiência': 'A eficiência do modelo de 1 estágio é superior a 97% e do modelo de 2 estágios é superior a 94%',
+          'Reduções em 1 estágio:': '3, 4, 5, 6, 7, 8, 9,10, 12, 14, 6, 18 e 20. ',
+          'Reduções em 2 estágios:': '15, 20, 25, 30, 35, 40, 50, 60, 70, 80, 90, 100, 120, 140, 160, 180, 200.',
+        }
+      },
+      {
         name: 'Linha SB',
         description: 'Redutores planetários de alta precisão com qualidade superiror e maior capacidade de torque. Linha Premium.',
         imgPath: 'img/produtos/planetarios/linha-sb.webp',
@@ -223,21 +238,6 @@ var database =  [
           'Reduções em 1 estágio': '3, 4, 5, 6, 7, 8, 9 e 10.',
           'Reduções em 2 estágios': '15, 20, 25, 30, 35, 40, 50, 60, 70, 80, 90, 100.',
           'Reduções em 3 estágios': '125, 150, 175, 200, 250, 300, 350, 400, 450, 500, 600, 700, 800, 900, 1000.',
-        }
-      },
-      {
-        name: 'Linha SBL',
-        description: 'Redutores planetários de alta precisão com qualidade superiror e maior capacidade de torque. Linha Premium.',
-        imgPath: 'img/produtos/planetarios/linha-sbl.webp',
-        specifications: {
-          'Folga Reduzida': 'Folga abaixo de 7 arco minuto. Sendo possível escolher especificações com até 1 arco minuto de folga.',
-          'Alta velocidade de entrada': 'Permite velocidades de entrada de 5.000 RPM.',
-          'Alto Torque': 'Maior torque de saída em comparação à redutores planetários que possuem engrenagens de dentes retos.',
-          'Alta Estabilidade': 'Produzido com aço de alta resistência. A dureza está em toda a engrenagem ao invés de estar apenas na superfície, proporciona aumento da vida útil mantendo a alta precisão mesmo após longo período de operação.',
-          'Baixo ruído': 'Abaixo de 65 dB.',
-          'Alta eficiência': 'A eficiência do modelo de 1 estágio é superior a 97% e do modelo de 2 estágios é superior a 94%',
-          'Reduções em 1 estágio:': '3, 4, 5, 6, 7, 8, 9,10, 12, 14, 6, 18 e 20. ',
-          'Reduções em 2 estágios:': '15, 20, 25, 30, 35, 40, 50, 60, 70, 80, 90, 100, 120, 140, 160, 180, 200.',
         }
       },
       {

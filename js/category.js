@@ -50,7 +50,7 @@ $(function () {
   }
 
   function buildSecondSectionRow(idx) {
-    const marginStyle = idx != 1 ? 'style="margin-top: 128px;"' : '';
+    const marginStyle = idx != 1 ? 'style="margin-top: 90px;"' : '';
     const order = (idx % 2) == 0 ? 'order-sm-first order-md-2' : ''; // if is pair inverse the order
     return '<div class="row" ' + marginStyle + '>'
     + '<div class="col-lg-6 col-sm-12 ' + order + ' d-flex justify-content-center mb-4 mb-lg-0">'
