@@ -138,7 +138,7 @@ var database =  [
       {
         name: 'Linha ML-  Monofásico',
         description: 'Motores monofásicos assíncronos em carcaça de alumínio com dois capacitores, com projeto avançado, feitos com materiais selecionados conforme a qualidade da norma IEC. Os motores MS possuem um ótimo desempenho, segurança e confiança na operação, a carcaça de alumínio oferece uma melhor aparência e um menor peso. Torque de partida é de 2.5 vezes o nominal. Estes motores são adequados nas ocasiões onde requer um alto torque de partida, podendo utilizá-lo nas mais variadas aplicações.',
-        imgPath: 'img/produtos/motor-e-motofreio/linha-ml-monofasico.webp',
+        imgPath: 'img/produtos/motor-e-motofreio/linha-ml-monofasico.png',
         specifications: {
           'Potências': '0.16cv - 4.00cv',
           'Motores': '4 pólos',
@@ -149,7 +149,7 @@ var database =  [
       {
         name: 'Linha MSB - Motofreio',
         description: 'Motores trifásicos assíncronos em carcaça de alumínio acoplados à um freio eletromagnético, com projeto avançado, feitos com materiais selecionados conforme a qualidade da norma IEC. Os motores MSB possuem um ótimo desempenho, segurança e confiança na operação, a carcaça de alumínio oferece uma melhor aparência e um menor peso. Devido á sua confiabilidade e a sua rápida travagem, são indicados nas mais variadas aplicações.',
-        imgPath: 'img/produtos/motor-e-motofreio/linha-msb-motofreio.webp',
+        imgPath: 'img/produtos/motor-e-motofreio/linha-msb-motofreio.png',
         specifications: {
           'Potências': '0.16cv - 0.93cv',
           'Motores': '4 pólos',
@@ -160,7 +160,7 @@ var database =  [
       {
         name: 'Linha W22 - Trifásico',
         description: 'Os motores W22 são motores que possuem nível de rendimento que atendem aos valores estabelecidos na Portaria 553 da lei de eficiência energética 10.295, que está em vigor desde janeiro de 2010. Excelente relação custo-benefício, baixos níveis de ruído e vibração e fácil manutenção são algumas das características que definem esse produto.',
-        imgPath: 'img/produtos/motor-e-motofreio/linha-w22-trifasico.webp',
+        imgPath: 'img/produtos/motor-e-motofreio/linha-w22-trifasico.png',
         specifications: {
           'Potências': '0.16cv - 30.00cv',
           'Motores': '2, 4, 6 e 8 pólos',
@@ -171,7 +171,7 @@ var database =  [
       {
         name: 'Linha W22 - Motofreio',
         description: 'Ideal para aplicações onde paradas instantâneas, precisas e seguras, controle de posicionamento e economia de energia são necessários.',
-        imgPath: 'img/produtos/motor-e-motofreio/linha-w22-motofreio.webp',
+        imgPath: 'img/produtos/motor-e-motofreio/linha-w22-motofreio.png',
         specifications: {
           'Potências': '0.16cv - 30.00cv',
           'Motores': '2, 4, 6 e 8 pólos',
@@ -200,7 +200,7 @@ var database =  [
       {
         name: 'Linha PBL',
         description: 'Redutores planetários de alta precisão com qualidade superiror e maior capacidade de torque.',
-        imgPath: 'img/produtos/planetarios/linha-pbl.webp',
+        imgPath: 'img/produtos/planetarios/linha-pbl.png',
         specifications: {
           'Operação Silenciosa': 'Engrenagens cônicas helicoidais e engrenagens helicoidais retificadas contribuem para redução de vibração e ruído.',
           'Alta Rigidez e Alto Torque': 'Alta rigidez e alto torque são alcançados pela integração de rolamentos de agulha e a construção em peça única do suporte dos rolamentos com eixo de saída.',
@@ -212,7 +212,7 @@ var database =  [
       {
         name: 'Linha SBL',
         description: 'Redutores planetários de alta precisão com qualidade superiror e maior capacidade de torque. Linha Premium.',
-        imgPath: 'img/produtos/planetarios/linha-sbl.webp',
+        imgPath: 'img/produtos/planetarios/linha-sbl.png',
         specifications: {
           'Folga Reduzida': 'Folga abaixo de 7 arco minuto. Sendo possível escolher especificações com até 1 arco minuto de folga.',
           'Alta velocidade de entrada': 'Permite velocidades de entrada de 5.000 RPM.',
@@ -227,7 +227,7 @@ var database =  [
       {
         name: 'Linha SB',
         description: 'Redutores planetários de alta precisão com qualidade superiror e maior capacidade de torque. Linha Premium.',
-        imgPath: 'img/produtos/planetarios/linha-sb.webp',
+        imgPath: 'img/produtos/planetarios/linha-sb.png',
         specifications: {
           'Folga Reduzida': 'Folga abaixo de 7 arco minuto. Sendo possível escolher especificações com até 1 arco minuto de folga.',
           'Alta velocidade de entrada': 'Permite velocidades de entrada de 5.000 RPM.',
@@ -243,7 +243,7 @@ var database =  [
       {
         name: 'Linha SE',
         description: 'Redutores planetários de alta precisão com maior capacidade de torque e sistema diferenciado de fixação na saída. Linha Premium.',
-        imgPath: 'img/produtos/planetarios/linha-se.webp',
+        imgPath: 'img/produtos/planetarios/linha-se.png',
         specifications: {
           'Folga Reduzida': 'Folga abaixo de 7 arco minuto. Sendo possível escolher especificações com até 1 arco minuto de folga.',
           'Alta velocidade de entrada': 'Permite velocidades de entrada de 5.000 RPM.',
@@ -259,7 +259,7 @@ var database =  [
       {
         name: 'Linha SEL',
         description: 'Redutores planetários de alta precisão com maior capacidade de torque e sistema diferenciado de fixação na saída. Linha Premium.',
-        imgPath: 'img/produtos/planetarios/linha-sel.webp',
+        imgPath: 'img/produtos/planetarios/linha-sel.png',
         specifications: {
           'Folga Reduzida': 'Folga abaixo de 7 arco minuto. Sendo possível escolher especificações com até 1 arco minuto de folga.',
           'Alta velocidade de entrada': 'Permite velocidades de entrada de 5.000 RPM.',
@@ -274,7 +274,7 @@ var database =  [
       {
         name: 'Linha SD',
         description: 'Redutores planetários de alta precisão com maior capacidade de torque e sistema diferenciado de fixação na saída. Linha Premium.',
-        imgPath: 'img/produtos/planetarios/linha-sd.webp',
+        imgPath: 'img/produtos/planetarios/linha-sd.png',
         specifications: {
           'Folga Reduzida': 'Folga abaixo de 7 arco minuto. Sendo possível escolher especificações com até 1 arco minuto de folga.',
           'Alta velocidade de entrada': 'Permite velocidades de entrada de 5.000 RPM.',
@@ -289,7 +289,7 @@ var database =  [
       {
         name: 'Linha SDL',
         description: 'Redutores planetários de alta precisão com maior capacidade de torque e sistema diferenciado de fixação na saída. Linha Premium.',
-        imgPath: 'img/produtos/planetarios/linha-sdl.webp',
+        imgPath: 'img/produtos/planetarios/linha-sdl.png',
         specifications: {
           'Reduções em 1 estágio': '4, 5, 7, 10, 14 e 20.',
           'Reduções em 2 estágios': '20, 25, 35, 40, 50, 70, 100. 140 e 200.',
@@ -304,7 +304,7 @@ var database =  [
       {
         name: 'Linha SF',
         description: 'Redutores planetários de alta precisão com maior capacidade de torque e com dois rolamentos cônicos na saída, aumentando muito a capacidade de absorção de esforços radiais e axiais. Linha Premium.',
-        imgPath: 'img/produtos/planetarios/linha-sf.webp',
+        imgPath: 'img/produtos/planetarios/linha-sf.png',
         specifications: {
           'Folga Reduzida': 'Folga abaixo de 7 arco minuto. Sendo possível escolher especificações com até 1 arco minuto de folga.',
           'Alta velocidade de entrada': 'Permite velocidades de entrada de 5.000 RPM.',
@@ -319,7 +319,7 @@ var database =  [
       {
         name: 'Linha SFL',
         description: 'Redutores planetários de alta precisão com maior capacidade de torque e com dois rolamentos cônicos na saída, aumentando muito a capacidade de absorção de esforços radiais e axiais. Linha Premium.',
-        imgPath: 'img/produtos/planetarios/linha-sfl.webp',
+        imgPath: 'img/produtos/planetarios/linha-sfl.png',
         specifications: {
           'Folga Reduzida': 'Folga abaixo de 7 arco minuto. Sendo possível escolher especificações com até 1 arco minuto de folga.',
           'Alta velocidade de entrada': 'Permite velocidades de entrada de 5.000 RPM.',
@@ -350,7 +350,7 @@ var database =  [
       {
         name: 'Linha CFW10',
         description: 'Destinado para o acionamento de motores trifásicos e monofásicos na faixa de potência de 0,25 a 5cv. Disponível nos modelos standart (sem potenciômetro) e plus (com potenciômetro.',
-        imgPath: 'img/produtos/automacao/linha-cfw10.webp',
+        imgPath: 'img/produtos/automacao/linha-cfw10.png',
         specifications: {
           'Tensão de entrada': '100 a 135V e 200 a 240V',
           'Tensão de saída': '200 a 240V',
@@ -361,7 +361,7 @@ var database =  [
       {
         name: 'Linha CFW300',
         description: 'Ideal para aplicação em máquinas ou equipamentos que necessitam de controle preciso e facilidade de operação, o CFW300 é um acionamento de velocidade variável de alta performance para motores de indução trifásicos.',
-        imgPath: 'img/produtos/automacao/linha-cfw300.webp',
+        imgPath: 'img/produtos/automacao/linha-cfw300.png',
         specifications: {
           'Corrente nominal de saída': '1,6 a 15,2 A',
           'Tensão de alimentação': '110-127 V ou 200-240 V monofásica e 200-240 V trifásica',
@@ -373,7 +373,7 @@ var database =  [
       {
         name: 'Linha CFW500',
         description: 'Destinado para o acionamento de motores trifásicos e monofásicos na faixa de potência de 0,25 a 20cv.',
-        imgPath: 'img/produtos/automacao/linha-cfw500.webp',
+        imgPath: 'img/produtos/automacao/linha-cfw500.png',
         specifications: {
           'Características': '- Corrente nominal de saída de 1 a 47 A (0,25 a 20cv)<br>- Alimentação monofásica ou trifásica<br>- Faixa de tensão de 200-480 V<br>- Controle vetorial (VVW) ou Escalar (V/F)<br>- Cartões plug-in para expansão de recursos<br>- Filosofia plug and play<br>- Função SoftPLC incorporada<br>- Interface de operação e programação (IHM) incorporada<br>- Porta RS485 padrão (módulo plug-in)<br>- Entradas e saídas (digitais e analógicas)<br>- Entradas e saídas digitais em frequência<br>- Instalação lado a lado (para temperaturas abaixo de 40 ºC)<br>- Temperatura ambiente de operação 50 ºC<br>- Montagem em superfície ou trilho DIN<br>- IGBT de frenagem *<br>- Conformal coating padrão de fábrica<br>- Grau de proteção IP20 (padrão) e NEMA1 (opcional)<br>- Ventilador com sistema de troca rápida<br>- Filtro RFI interno (opcional)<br>- Diagnósticos de alarmes ou falhas<br>- Opcionais para comunicação em redes industriais:<br>- CANopen, DeviceNet, Profibus-DP e RS232<br>- Comunicação USB (opcional)<br>- Cartão de memória para transferência de dados<br>- (parâmetros e SoftPLC) entre CFW500 (opcional)<br>- Softwares de programação gratuitos WLP e SuperDrive G2<br>- Interface de operação remota serial (opcional)',
         }
@@ -381,7 +381,7 @@ var database =  [
       {
         name: 'Linha CFW700',
         description: 'Especialmente otimizado para as mais diversas aplicações, possui controle vetorial, robustez e vários acessórios já incorporados no produto padrão, aliados a qualidade dos inversores WEG sempre com ótimo custo benefício. No CFW700 a instalação dos acessórios também é baseada na filosofia “conecte e use” ou seja, eles são configurados automaticamente quando conectados ao inversor, garantindo mais rapidez e simplicidade.',
-        imgPath: 'img/produtos/automacao/linha-cfw700.webp',
+        imgPath: 'img/produtos/automacao/linha-cfw700.png',
         specifications: {
           'Tensão de alimentação - corrente nominal de saída': '- 220Vca Monofásica: 6 a 10A (1,5 a 3cv)<br>- 220Vca Trifásica: 6 a 211A (1,5 a 75cv)<br>- 380-480Vca Trifásica: 3,6 a 211A (2 a 175cv)<br><br>- Estrutura compacta, ideal para instalação em espaços reduzidos.<br>- Alta precisão e confiabilidade no controle de velocidade e de torque.<br>- Robustez de hardware.',
           'Indutores no barramento CC': 'Não necessita de reatância de rede<br><br>Instalação em qualquer rede, sem restrição de impedância mínima<br>Atende a norma IEC61000-3-12<br><br>Entrada para encoder incremental isolada',
@@ -393,7 +393,7 @@ var database =  [
       {
         name: 'Linha SSW05',
         description: 'Soft-Starter WEG são chaves de partida estática, destinadas à aceleração, desaceleração e proteção de motores de indução trifásicos. O controle da tensão aplicada ao motor, mediante o ajuste do ângulo de disparo dos tiristores, permite obter partidas e paradas suaves. Com o ajuste adequado das variáveis, o torque produzido é ajustado à necessidade da carga, garantindo, desta forma, que a corrente solicitada seja a mínima necessária para a partida.',
-        imgPath: 'img/produtos/automacao/linha-ssw05.webp',
+        imgPath: 'img/produtos/automacao/linha-ssw05.png',
         specifications: {
           'Aplicações': 'Bombas centrífugas, ventiladores de baixa inércia, compressores de ar, refrigeração (parafuso), com partida em alívio.',
           'Características': '- Correntes: 3 a 85A<br>- Tensão: 220 a 575V<br>- By-pass incorporado<br>- Controle com DSP<br>- IHM remota (opcional)<br>- Proteções do motor incorporadas<br>- Operação em ambientes de até 55°C<br>- Comunicação serial RS-232 incorporada',
@@ -402,7 +402,7 @@ var database =  [
       {
         name: 'Linha SSW06',
         description: 'Chave de partida estática com controle de três fases do motor, by-pass incorporado e controle de torque. Soft-Starter WEG são chaves de partida estática, destinadas à aceleração, desaceleração e proteção de motores de indução trifásicos. O controle da tensão aplicada ao motor, mediante o ajuste do ângulo de disparo dos tiristores, permite obter partidas e paradas suaves. Com o ajuste adequado das variáveis, o torque produzido é ajustado à necessidade da carga, garantindo, desta forma, que a corrente solicitada seja a mínima necessária para a partida.',
-        imgPath: 'img/produtos/automacao/linha-ssw06.webp',
+        imgPath: 'img/produtos/automacao/linha-ssw06.png',
         specifications: {
           'Aplicações': 'Bombas centrífugas, alternativas (saneamento, irrigação e petróleo), ventiladores, exaustores, sopradores, compressores de ar, refrigeração (parafuso e pistão), misturadores, aeradores, centrífugas, britadores, moedores, picadores de madeira, refinadores de papel, fornos rotativos, serras e plainas (madeira), moinhos (bolas e martelo) e transportadores de carga.',
           'Características': '- Correntes: 10 a 1400A (200-575V) e 45 a 1400A (575-690V)<br>- Tensão: 220 a 575V ou 575 a 690V<br>- Métodos de partida e parada programáveis: rampa de tensão, limite de corrente, rampa de corrente, controle de bombas e controle de torque<br>- By-pass incorporado nos modelos até 820A<br>- IHM destacável com duplo display (LED/LCD)<br>- Função "Kick-Start" para partidas com elevado atrito estático<br>- Função "Pump Control" para controle inteligente de sistemas de bombeamento<br>- Proteções do motor e da soft-starter incorporadas<br>- Operação em ambientes de até 55 °C sem derating para os modelos 10 a 820A e até 40 °C sem derating para os modelos 950 a 1400A<br>- Redes: Profibus DP, DeviceNet, EtherNet/IP e Modbus/TCP (opcionais)<br>- Comunicação Modbus RTU em RS232 incorporada e RS485 ou USB (opcionais)<br>- Entrada para PTC do motor<br>- Permite ligação dentro do delta do motor (6 cabos somente para os modelos 220-575V) ou standard (3 cabos)<br>- Diagnósticos de falhas e de funcionamento<br>- SoftPLC para desenvolvimento de pequenas aplicações',
@@ -411,7 +411,7 @@ var database =  [
       {
         name: 'Linha SSW07',
         description: 'Soft-Starter WEG são chaves de partida estática, destinadas à aceleração, desaceleração e proteção de motores de indução trifásicos. O controle da tensão aplicada ao motor, mediante o ajuste do ângulo de disparo dos tiristores, permite obter partidas e paradas suaves. Com o ajuste adequado das variáveis, o torque produzido é ajustado à necessidade da carga, garantindo, desta forma, que a corrente solicitada seja a mínima necessária para a partida.',
-        imgPath: 'img/produtos/automacao/linha-ssw07.webp',
+        imgPath: 'img/produtos/automacao/linha-ssw07.png',
         specifications: {
           'Aplicações': 'Bombas centrífugas, alternativas (saneamento, irrigação e petróleo), ventiladores, exaustores, sopradores, compressores de ar, refrigeração (parafuso e pistão), misturadores, aeradores, centrífugas, britadores, moedores, picadores de madeira, refinadores de papel, fornos rotativos, serras e plainas (madeira), moinhos (bolas e martelo) e transportadores de carga.',
           'Características': '- Correntes: 17 a 412A<br>- Tensão: 220 a 575V<br>- By-pass incorporado<br>- Elevado regime de partidas<br>- Controle total nas três fases<br>- Proteção do motor e da chave incorporada<br>- Função "Kick-Start" para partidas com elevado atrito estático<br>- IHM local ou remota (opcional)<br>- Entrada para PTC do motor (opcional)<br>- Operação em ambientes de até 55 °C<br>- Pesos e dimensões extremamente reduzidas<br>- Comunicação: Profibus DP, DeviceNet, RS232 e RS485 (opcional)',
@@ -425,7 +425,7 @@ var database =  [
       {
         name: 'Linha UDL',
         description: 'Variador de velocidade mecânico possibilita a variação da velocidade de rotação de saída através de um controle manual. São facilmente acoplados na entrada à motores elétricos padrão e na saída podem ser diretamente utilizados em máquinas ou acoplados a entrada de redutores, conforme a necessidade de aplicação desejada.',
-        imgPath: 'img/produtos/variadores/linha-udl.webp',
+        imgPath: 'img/produtos/variadores/linha-udl.png',
         specifications: {
           'Reduções': '1:1.6 - 1:8.2',
           'Potências': '0.25cv - 4.00cv',
@@ -451,7 +451,7 @@ var database =  [
       {
         name: 'Linha ASN',
         description: 'Conjunto mecânico, constituído de elementos de máquina, empregado na transmissão de rotação entre duas árvores ou eixos-árvore. Os princípios de rotação são transmitidos pelos acoplamentos segundo os princípios de atrito e de forma.',
-        imgPath: 'img/produtos/acoplamentos/linha-asn.webp',
+        imgPath: 'img/produtos/acoplamentos/linha-asn.png',
         specifications: {
           'Tamanho': '50 - 300',
           'Diâmetro': 'ø42 - ø243',
@@ -466,7 +466,7 @@ var database =  [
       {
         name: 'Linha DZ',
         description: 'Feitas em carcaça de alumínio, possuem engrenagens cônicas com dentes helicoidais, temperadas e retificadas, proporcionando a máxima eficiência e menores ruídos e aquecimento.',
-        imgPath: 'img/produtos/transmissor-angular/linha-dz.webp',
+        imgPath: 'img/produtos/transmissor-angular/linha-dz.png',
         specifications: {
           'Tamanho': '1 - 5',
           'Reduções': '1:1 - 1:2',
