@@ -58,8 +58,8 @@ $(function () {
     + '</div>'
     + '<div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center align-items-start">'
     +    '<h1 class="text__title--large color__text--dark">' + category.products[idx].name + '</h1>'
-    +    '<!-- <h2 class="text__subtitle--ultra-small color__text--dark width--small mb-3">Energia. Velocidade. Resistência. Precisão.<br>Excelência em qualidade e tecnologia.</h2>'
-    +    '<!-- <p class="text__subtitle--description color__text--medium-light">Lorem ipsum dolor sit amet, consectetur.</p> -->'
+    +    '<!-- <h2 class="text__subtitle--ultra-small color__text--dark width--small mb-3">Energia. Velocidade. Resistência. Precisão.<br>Excelência em qualidade e tecnologia.</h2> -->'
+    +    '<p class="text__subtitle--description color__text--medium-light mb-3 description-item">' + category.products[idx].description + '</p>'
     +    '<button class="button-group mb-2" onclick="buy(' + idx + ')">Comprar</button>'
     +    '<a class="link--primary icons" href="product.html" onclick="selectProduct(' + idx + ')">Detalhes<span class="material-icons">keyboard_arrow_right</span></a>'
     + '</div>' +
