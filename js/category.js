@@ -56,7 +56,7 @@ $(function () {
     + '<div class="col-lg-6 col-sm-12 ' + order + ' d-flex justify-content-center mb-4 mb-lg-0">'
     +    '<img src="' + category.products[idx].imgPath + '" class="product--large">'
     + '</div>'
-    + '<div class="col-lg-6 col-sm-12">'
+    + '<div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center align-items-start">'
     +    '<h1 class="text__title--large color__text--dark">' + category.products[idx].name + '</h1>'
     +    '<!-- <h2 class="text__subtitle--ultra-small color__text--dark width--small mb-3">Energia. Velocidade. Resistência. Precisão.<br>Excelência em qualidade e tecnologia.</h2>'
     +    '<!-- <p class="text__subtitle--description color__text--medium-light">Lorem ipsum dolor sit amet, consectetur.</p> -->'
