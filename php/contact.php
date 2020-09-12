@@ -34,11 +34,14 @@ $mail->ClearAttachments();
 
 if ($sended) {
     echo "E-mail enviado com sucesso!";
+    echo '<script>window.history.back();</script>';
 } else {
     echo "Não foi possível enviar o e-mail.
     
     ";
     echo "Informações do erro: 
     " . $mail->ErrorInfo;
+    echo '<script>window.history.back();</script>';
 }
+
 ?>
