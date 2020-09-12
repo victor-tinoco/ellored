@@ -67,18 +67,10 @@ $(function () {
   }
 
   function buildThirdSectionItem(idx) {
-    let specsParagraphsList = '';
-    for (let i = 0; i <= 2; i++) {
-      let specs = category.products[idx].specifications;
-      let key = Object.keys(specs)[i]
-      if (key) specsParagraphsList += '<p class="color__text--dark text__body--paragraph text-center description-item">' + key + ': ' + specs[key] + '</p>';
-    }
-
     return '<div class="col-sm-12 col-lg mt-5 mt-lg-0 mb-5 mb-lg-0 d-flex align-items-center justify-content-end flex-column">'
     + '<img class="product" src="'+ category.products[idx].imgPath + '">'
-    + '<h2 class="text__title--ultra-small color__text--dark mt-3 mb-3">'+ category.products[idx].name + '</h2>'
-    + specsParagraphsList
-    + '<button class="button-group mb-1 mt-3" onclick="buy(' + idx + ')">Comprar</button>'
+    + '<h2 class="text__title--ultra-small color__text--dark mt-3 mb-2">'+ category.products[idx].name + '</h2>'
+    + '<button class="button-group mb-1" onclick="buy(' + idx + ')">Comprar</button>'
     + '<a class="ml-2 link--primary icons" href="product.html" onclick="selectProduct(' + idx + ')">Saiba mais<span class="material-icons">keyboard_arrow_right</span></a>' +
     '</div>';
   }
