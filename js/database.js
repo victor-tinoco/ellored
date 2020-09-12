@@ -126,7 +126,6 @@ var database =  [
     products: [
       {
         name: 'Linha MS - Trifásico',
-        
         description: 'Motores trifásicos assíncronos em carcaça de alumínio, com projeto avançado, feitos com materiais selecionados conforme a qualidade da norma IEC. Os motores MS possuem um ótimo desempenho, segurança e confiança na operação, a carcaça de alumínio oferece uma melhor aparência e um menor peso. Motor com construção simples, baixo ruído e vibração, podendo utilizá-lo nas mais variadas aplicações.',
         imgPath: 'img/produtos/motor-e-motofreio/linha-ms-trifasico.png',
         specifications: {

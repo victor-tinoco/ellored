@@ -85,10 +85,11 @@ $(function () {
 
   function buildFourthSectionItem(idx) {
     return '<div class="col-sm-12 col-lg p-2">'
-    + '<div class="color__background--white h-100 section--pading-div d-flex flex-column align-items-center ">'
+    + '<div style="height: 570px;" class="color__background--white section--pading-div d-flex flex-column align-items-center ">'
     +    '<h1 class="color__text--dark text__title--large mb-2">'+ category.products[idx].name + '</h1>'
     +    '<h2 class="text__subtitle--ultra-small color__text--dark width--small mb-2 text-center">Energia. Velocidade. Resistência. Precisão.<br>Excelência em qualidade e tecnologia.</h2>'
     +    '<!-- <p class="color__text--medium-light text__subtitle--description mb-2">Lorem ipsum dolor sit amet, consectetur.</p> -->'
+    +    '<button class="button-group mb-1 mt-3" onclick="buy(' + idx + ')">Comprar</button>'
     +    '<a class="link--primary icons mb-5" href="product.html" onclick="selectProduct(' + idx + ')">Ler mais<span class="material-icons">keyboard_arrow_right</span></a>'
     +    '<img src="'+ category.products[idx].imgPath + '" class="product--large">'
     + '</div>' +
