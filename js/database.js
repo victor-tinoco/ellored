@@ -125,7 +125,7 @@ var database =  [
     title: 'Motor e Motofreio',
     products: [
       {
-        name: 'Linha MS - Trifásico',
+        name: 'Linha T3A Trifásico',
         description: 'Motores trifásicos assíncronos em carcaça de alumínio, com projeto avançado, feitos com materiais selecionados conforme a qualidade da norma IEC. Os motores MS possuem um ótimo desempenho, segurança e confiança na operação, a carcaça de alumínio oferece uma melhor aparência e um menor peso. Motor com construção simples, baixo ruído e vibração, podendo utilizá-lo nas mais variadas aplicações.',
         imgPath: 'img/produtos/motor-e-motofreio/linha-ms-trifasico.png',
         specifications: {
@@ -147,7 +147,7 @@ var database =  [
         }
       },
       {
-        name: 'Linha MSB - Motofreio',
+        name: 'Linha MF T3A Motofreio',
         description: 'Motores trifásicos assíncronos em carcaça de alumínio acoplados à um freio eletromagnético, com projeto avançado, feitos com materiais selecionados conforme a qualidade da norma IEC. Os motores MSB possuem um ótimo desempenho, segurança e confiança na operação, a carcaça de alumínio oferece uma melhor aparência e um menor peso. Devido á sua confiabilidade e a sua rápida travagem, são indicados nas mais variadas aplicações.',
         imgPath: 'img/produtos/motor-e-motofreio/linha-msb-motofreio.png',
         specifications: {
